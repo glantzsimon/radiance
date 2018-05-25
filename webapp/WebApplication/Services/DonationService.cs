@@ -34,7 +34,7 @@ namespace K9.WebApplication.Services
             try
             {
                 _donationRepository.Create(donation);
-                SendEmailToBotf(donation);
+                SendEmailToRadianceEvents(donation);
                 SendEmailToCustomer(donation);
             }
             catch (Exception ex)
@@ -58,11 +58,9 @@ namespace K9.WebApplication.Services
             return GetNumberOfIbogasSponsoredLast30Days() * 12;
         }
 
-        private void SendEmailToBotf(Donation donation)
+        private void SendEmailToRadianceEvents(Donation donation)
         {
-            var template = donation.NumberOfIbogas > 0
-                ? Dictionary.IbogaSponsoredEmail
-                : Dictionary.DonationReceivedEmail;
+            var template = Dictionary.DonationReceivedEmail;
             var title = donation.NumberOfIbogas > 0
                 ? "We have received a donation to sponsor an iboga tree!"
                 : "We have received a donation!";
@@ -82,12 +80,8 @@ namespace K9.WebApplication.Services
 
         private void SendEmailToCustomer(Donation donation)
         {
-            var template = donation.NumberOfIbogas > 0
-                ? Dictionary.SponsorThankYouEmail
-                : Dictionary.DonationThankYouEmail;
-            var title = donation.NumberOfIbogas > 0
-                ? Dictionary.ThankyouForSponorEmailTitle
-                : Dictionary.ThankyouForDonationEmailTitle;
+            var template = Dictionary.DonationThankYouEmail;
+            var title = Dictionary.ThankyouForDonationEmailTitle;
             _mailer.SendEmail(title, TemplateProcessor.PopulateTemplate(template, new
             {
                 Title = title,

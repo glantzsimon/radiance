@@ -191,7 +191,7 @@
       <HintPath>..\packages\K9.SharedLibrary.2.0.0.55\lib\net461\System.Web.Helpers.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\K9.Base.DataAccessLayer.2.0.0.65\lib\net461\System.Web.Mvc.dll</HintPath>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
@@ -234,12 +234,8 @@
     <Compile Include="Config\TaskConfiguration.cs" />
     <Compile Include="Config\StripeConfiguration.cs" />
     <Compile Include="Constants\ViewDataConstants.cs" />
-    <Compile Include="Controllers\AboutUsController.cs" />
     <Compile Include="Controllers\AccountControllerAjax.cs" />
     <Compile Include="Controllers\DonationsController.cs" />
-    <Compile Include="Controllers\ProjectDetailsController.cs" />
-    <Compile Include="Controllers\ShopController.cs" />
-    <Compile Include="Controllers\ProjectsController.cs" />
     <Compile Include="Controllers\ArchiveCategoriesController.cs" />
     <Compile Include="Controllers\ArchiveController.cs" />
     <Compile Include="Controllers\ArchiveItemsController.cs" />
@@ -262,9 +258,7 @@
     <Compile Include="Helpers\Dynamic.cs" />
     <Compile Include="Helpers\Separator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Services\IShopService.cs" />
     <Compile Include="Services\IDonationService.cs" />
-    <Compile Include="Services\ShopService.cs" />
     <Compile Include="Services\Stripe\StripeCharge.cs" />
     <Compile Include="Services\Stripe\IStripeService.cs" />
     <Compile Include="Services\DonationService.cs" />
@@ -319,54 +313,6 @@
     <Content Include="Content\k9\pageSpinner.css" />
     <Content Include="Content\_colors.txt" />
     <Content Include="Global.asax" />
-    <Content Include="Images\archive\upload\ArchiveItem\2\sample.mkv" />
-    <Content Include="Images\archive\upload\ArchiveItem\2\sample.mov" />
-    <Content Include="Images\archive\upload\ArchiveItem\2\sample.mp4" />
-    <Content Include="Images\archive\upload\ArchiveItem\2\sample.mpg" />
-    <Content Include="Images\archive\upload\ArchiveItem\2\sample.swf" />
-    <Content Include="Images\archive\upload\ArchiveItem\2\sample.wmv" />
-    <Content Include="Images\archive\upload\ArchiveItem\3\animated.gif" />
-    <Content Include="Images\archive\upload\ArchiveItem\3\progressive.jpg" />
-    <Content Include="Images\archive\upload\ArchiveItem\3\sample.gif" />
-    <Content Include="Images\archive\upload\ArchiveItem\3\sample.jpg" />
-    <Content Include="Images\archive\upload\ArchiveItem\3\sample.png" />
-    <Content Include="Images\archive\upload\ArchiveItem\3\sample.tiff" />
-    <Content Include="Images\archive\upload\ArchiveItem\4\audio4.mp3" />
-    <Content Include="Images\archive\upload\ArchiveItem\4\Autumn %281%29.wma" />
-    <Content Include="Images\archive\upload\ArchiveItem\4\Autumn.wma" />
-    <Content Include="Images\archive\upload\ArchiveItem\4\sample.aac" />
-    <Content Include="Images\archive\upload\ArchiveItem\4\sample.ac3" />
-    <Content Include="Images\archive\upload\ArchiveItem\4\sample.aiff" />
-    <Content Include="Images\archive\upload\ArchiveItem\4\sample.au" />
-    <Content Include="Images\archive\upload\ArchiveItem\4\sample.flac" />
-    <Content Include="Images\archive\upload\ArchiveItem\4\sample.m4a" />
-    <Content Include="Images\archive\upload\ArchiveItem\4\sample.mid" />
-    <Content Include="Images\archive\upload\ArchiveItem\4\sample.mka" />
-    <Content Include="Images\archive\upload\ArchiveItem\4\sample.mp3" />
-    <Content Include="Images\archive\upload\ArchiveItem\4\sample.wav" />
-    <Content Include="Images\archive\upload\ArchiveItem\4\sample.wma" />
-    <Content Include="Images\archive\upload\ArchiveItem\6\botf 2.txt" />
-    <Content Include="Images\archive\upload\ArchiveItem\6\todo.txt" />
-    <Content Include="Images\background\etats-lieux\gabon-wildlife1.jpg" />
-    <Content Include="Images\background\etats-lieux\ivory.jpg" />
-    <Content Include="Images\background\etats-lieux\poaching1.jpg" />
-    <Content Include="Images\background\etats-lieux\poaching2.jpg" />
-    <Content Include="Images\background\etats-lieux\poaching4.jpg" />
-    <Content Include="Images\background\slides\creek_bg.jpg" />
-    <Content Include="Images\background\slides\jungle-bg.jpg" />
-    <Content Include="Images\background\slides\bwiti1.jpg" />
-    <Content Include="Images\background\slides\forest1d.jpg" />
-    <Content Include="Images\background\slides\forest2.jpg" />
-    <Content Include="Images\background\slides\forest3d.jpg" />
-    <Content Include="Images\background\slides\forest4.jpg" />
-    <Content Include="Images\background\etats-lieux\gabon-elephant.jpg" />
-    <Content Include="Images\background\slides\gabon_forest3.jpg" />
-    <Content Include="Images\company\botf_logo_default_small_inv.png" />
-    <Content Include="Images\company\botf_logo_med.png" />
-    <Content Include="Images\company\botf_med.png" />
-    <Content Include="Images\company\botf_logo_small_inverted.png" />
-    <Content Include="Images\company\botf_new_med.png" />
-    <Content Include="Images\company\botf_small.png" />
     <Content Include="Images\flags\ad.png" />
     <Content Include="Images\flags\ae.png" />
     <Content Include="Images\flags\af.png" />
@@ -614,86 +560,9 @@
     <Content Include="Images\flags\za.png" />
     <Content Include="Images\flags\zm.png" />
     <Content Include="Images\flags\zw.png" />
-    <Content Include="Images\home\bwiti-bg.jpg" />
-    <Content Include="Images\home\context2\aims1.jpg" />
-    <Content Include="Images\home\context2\iboga2.jpg" />
-    <Content Include="Images\home\context2\wood1.jpg" />
-    <Content Include="Images\home\context3\0024-2686_01.jpg" />
-    <Content Include="Images\home\context3\9446-600.png" />
-    <Content Include="Images\home\context3\GMA3554_Iboga_Full.jpg" />
-    <Content Include="Images\home\context3\ibogene.jpg" />
-    <Content Include="Images\home\etat-forest.jpg" />
-    <Content Include="Images\home\etat-lieux2.jpg" />
-    <Content Include="Images\home\gabon-map.jpg" />
-    <Content Include="Images\home\hand.jpg" />
-    <Content Include="Images\home\home1.jpg" />
-    <Content Include="Images\home\iboga.jpg" />
-    <Content Include="Images\home\iboga2.jpg" />
-    <Content Include="Images\home\smokefog-dark.png" />
-    <Content Include="Images\home\wood1.jpg" />
-    <Content Include="Images\home\slides\aims1.jpg" />
-    <Content Include="Images\home\slides\aims2.jpg" />
-    <Content Include="Images\home\slides\aims3.jpg" />
-    <Content Include="Images\iboga\2\dragees-iboga.jpg" />
-    <Content Include="Images\iboga\2\ibogaine-chart.jpg" />
-    <Content Include="Images\iboga\2\ibogaine.jpg" />
-    <Content Include="Images\iboga\2\ivory.jpg" />
-    <Content Include="Images\iboga\1\patent.jpg" />
-    <Content Include="Images\iboga\1\pills-online.jpg" />
-    <Content Include="Images\iboga\1\aims1.jpg" />
-    <Content Include="Images\iboga\1\aims2.jpg" />
-    <Content Include="Images\iboga\1\aims3.jpg" />
-    <Content Include="Images\iboga\plant-a-tree-med.png" />
-    <Content Include="Images\iboga\plant-a-tree-small.png" />
-    <Content Include="Images\iboga\plant-a-tree.png" />
     <Content Include="Images\icons\favicon.ico" />
-    <Content Include="Images\latest\full-size\image1.jpg" />
-    <Content Include="Images\latest\full-size\image10.jpg" />
-    <Content Include="Images\latest\full-size\image11.jpg" />
-    <Content Include="Images\latest\full-size\image12.jpg" />
-    <Content Include="Images\latest\full-size\image2.jpg" />
-    <Content Include="Images\latest\full-size\image3.jpg" />
-    <Content Include="Images\latest\full-size\image4.jpg" />
-    <Content Include="Images\latest\full-size\image5.jpg" />
-    <Content Include="Images\latest\full-size\image6.jpg" />
-    <Content Include="Images\latest\full-size\image7.jpg" />
-    <Content Include="Images\latest\full-size\image8.jpg" />
-    <Content Include="Images\latest\full-size\image9.jpg" />
-    <Content Include="Images\latest\image1.jpg" />
-    <Content Include="Images\latest\image10.jpg" />
-    <Content Include="Images\latest\image11.jpg" />
-    <Content Include="Images\latest\image12.jpg" />
-    <Content Include="Images\latest\image2.jpg" />
-    <Content Include="Images\latest\image3.jpg" />
-    <Content Include="Images\latest\image4.jpg" />
-    <Content Include="Images\latest\image5.jpg" />
-    <Content Include="Images\latest\image6.jpg" />
-    <Content Include="Images\latest\image7.jpg" />
-    <Content Include="Images\latest\image8.jpg" />
-    <Content Include="Images\latest\image9.jpg" />
-    <Content Include="Images\partners\bokaye.jpg" />
-    <Content Include="Images\partners\gabon-ministere.jpg" />
-    <Content Include="Images\partners\global-ibogaine.jpg" />
-    <Content Include="Images\partners\iceers.jpg" />
-    <Content Include="Images\partners\ebando.jpg" />
-    <Content Include="Images\partners\parc-gabon.jpg" />
-    <Content Include="Images\partners\plant-consciousness.jpg" />
-    <Content Include="Images\projects\projects_bg.jpg" />
     <Content Include="Images\shared\blessings_loader.gif" />
     <Content Include="Images\shared\botf_logo_animated.gif" />
-    <Content Include="Images\team\david.jpg" />
-    <Content Include="Images\team\gassita.jpg" />
-    <Content Include="Images\team\george.jpg" />
-    <Content Include="Images\team\hubert.jpg" />
-    <Content Include="Images\team\hugues.jpg" />
-    <Content Include="Images\team\josephine.jpg" />
-    <Content Include="Images\team\laurent.jpg" />
-    <Content Include="Images\team\marie.jpg" />
-    <Content Include="Images\team\quevain.jpg" />
-    <Content Include="Images\team\rudy.jpg" />
-    <Content Include="Images\team\simon.jpg" />
-    <Content Include="Images\team\yann.jpg" />
-    <Content Include="Images\team\yann2.jpg" />
     <Content Include="Images\template\1.jpg" />
     <Content Include="Images\template\2.jpg" />
     <Content Include="Images\template\3.jpg" />
@@ -745,7 +614,6 @@
     <Content Include="Scripts\library\SmoothScroll.min.js" />
     <Content Include="Scripts\library\vticker-min.js" />
     <Content Include="Scripts\template\scroller.js" />
-    <Content Include="Views\AboutUs\Team.cshtml" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -762,6 +630,10 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Images\archive\upload\ArchiveItem\" />
+    <Folder Include="Images\background\" />
+    <Folder Include="Images\company\" />
+    <Folder Include="Images\home\" />
     <Folder Include="Options\" />
     <Folder Include="Upload\" />
   </ItemGroup>
@@ -871,9 +743,7 @@
     <Content Include="Views\Shared\_PopupAlert.cshtml" />
     <Content Include="Views\Shared\_BreadCrumbs.cshtml" />
     <Content Include="Config\appsettings.json" />
-    <Content Include="Views\News\Index.cshtml" />
     <Content Include="Views\Archive\Index.cshtml" />
-    <Content Include="Views\Iboga\Index.cshtml" />
     <Content Include="Views\Shared\Controls\_Carousel.cshtml" />
     <Content Include="Content\fonts\fontawesome-webfont.eot" />
     <Content Include="Content\fonts\fontawesome-webfont.svg" />
@@ -893,7 +763,6 @@
     <Content Include="Views\Shared\_Navbar.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\_LayoutFormMaster.cshtml" />
-    <Content Include="Images\home\animated-waterfalls.webp" />
     <Content Include="Views\NewsItems\_DisplayFields.cshtml" />
     <Content Include="Views\NewsItems\_EditFields.cshtml" />
     <Content Include="Views\NewsItems\Create.cshtml" />
@@ -911,28 +780,10 @@
     <Content Include="Views\Shared\DisplayTemplates\Html.cshtml" />
     <Content Include="Views\Shared\Controls\_LanguageSelector.cshtml" />
     <Content Include="Views\Shared\_FooterNewsScroller.cshtml" />
-    <Content Include="Views\News\_NewsSummary.cshtml" />
-    <Content Include="Images\archive\upload\ArchiveItem\1\Copy-Angela Thomas Facilities and property management  CV 081117  V2 %281%29.doc" />
-    <Content Include="Images\archive\upload\ArchiveItem\1\Copy-Angela Thomas Facilities and property management  CV 081117  V2.pdf" />
-    <Content Include="Images\archive\upload\ArchiveItem\1\Dadaabc teaching profile.docx" />
-    <Content Include="Images\archive\upload\ArchiveItem\1\Healing-Portal-Conditions-Sub-Conditions-Map.docx" />
-    <Content Include="Images\archive\upload\ArchiveItem\2\sample.webm" />
-    <Content Include="Images\archive\upload\ArchiveItem\3\sample.webp" />
-    <Content Include="Images\archive\upload\ArchiveItem\4\sample.amr" />
-    <Content Include="Images\archive\upload\ArchiveItem\4\sample.ogg" />
-    <Content Include="Images\archive\upload\ArchiveItem\4\sample.ra" />
-    <Content Include="Images\archive\upload\ArchiveItem\4\sample.voc" />
-    <Content Include="Images\archive\upload\ArchiveItem\5\Copy-Angela Thomas Facilities and property management  CV 081117  V2 %281%29.doc" />
-    <Content Include="Images\archive\upload\ArchiveItem\5\Dadaabc teaching profile.docx" />
-    <Content Include="Images\archive\upload\ArchiveItem\5\Healing-Portal-Conditions-Sub-Conditions-Map.docx" />
-    <Content Include="Images\archive\upload\ArchiveItem\6\debug.log" />
-    <Content Include="Images\archive\upload\ArchiveItem\6\wiwi.docx" />
-    <Content Include="Images\background\slides\Thumbs.db" />
     <None Include="packages.config" />
     <None Include="Properties\PublishProfiles\Integration.pubxml" />
     <None Include="Properties\PublishProfiles\IntegrationLocal.pubxml" />
     <None Include="Properties\PublishProfiles\Production.pubxml" />
-    <None Include="Properties\PublishProfiles\Staging.pubxml" />
     <None Include="Properties\PublishProfiles\Test.pubxml" />
     <Content Include="Views\Shared\EditorTemplates\String.cshtml" />
     <Content Include="Views\Shared\_LayoutColumns.cshtml" />
@@ -971,11 +822,8 @@
     <Content Include="Views\Home\_Partners.cshtml" />
     <Content Include="Views\Home\_Contact.cshtml" />
     <Content Include="Views\Home\_EtatsLieux.cshtml" />
-    <Content Include="Views\Projects\Index.cshtml" />
-    <Content Include="Views\Projects\_Projects.cshtml" />
     <Content Include="Views\Shared\_EmbeddedVideo.cshtml" />
     <Content Include="Views\Shared\_Separator.cshtml" />
-    <Content Include="Views\Shop\Index.cshtml" />
     <Content Include="Views\Support\Donate.cshtml" />
     <Content Include="Views\Support\DonationSuccess.cshtml" />
     <Content Include="Views\Support\DonateStart.cshtml" />
@@ -989,22 +837,8 @@
     <Content Include="Views\Donations\Edit.cshtml" />
     <Content Include="Views\Donations\Index.cshtml" />
     <Content Include="Views\Shared\_PhotosBy.cshtml" />
-    <Content Include="Views\Shared\_SponsorIbogaBanner.cshtml" />
-    <Content Include="Views\Support\SponsorIbogaStart.cshtml" />
-    <Content Include="Views\Support\SponsorIboga.cshtml" />
-    <Content Include="Views\Support\SponsorSuccess.cshtml" />
-    <Content Include="Views\Shared\_TreeCounter.cshtml" />
-    <Content Include="Views\Projects\_TreeCounterBanner.cshtml" />
-    <Content Include="Views\ProjectDetails\_DisplayFields.cshtml" />
-    <Content Include="Views\ProjectDetails\_EditFields.cshtml" />
-    <Content Include="Views\ProjectDetails\Create.cshtml" />
-    <Content Include="Views\ProjectDetails\Delete.cshtml" />
-    <Content Include="Views\ProjectDetails\Details.cshtml" />
-    <Content Include="Views\ProjectDetails\Edit.cshtml" />
-    <Content Include="Views\ProjectDetails\Index.cshtml" />
     <Content Include="Views\Shared\EditorTemplates\Int32.cshtml" />
     <Content Include="Views\Shared\DisplayTemplates\Int32.cshtml" />
-    <Content Include="Views\Shared\_TreeSponsorCounter.cshtml" />
     <Content Include="Views\Shared\DisplayTemplates\Url.cshtml" />
     <Content Include="Views\Shared\EditorTemplates\Url.cshtml" />
     <Content Include="Views\Shared\_LinkPreview.cshtml" />
@@ -1013,6 +847,8 @@
     <Content Include="Views\Shared\_ImageFilesDisplay.cshtml" />
     <Content Include="Views\Shared\_VideoFilesDisplay.cshtml" />
     <Content Include="Views\Shared\EditorTemplates\NewsItemType.cshtml" />
+    <Content Include="Views\News\Index.cshtml" />
+    <Content Include="Views\News\_NewsSummary.cshtml" />
     <None Include="Web.Integration.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -1093,7 +929,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>2625</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>https://localhost/blessingsoftheforest</IISUrl>
+          <IISUrl>https://localhost/radiance</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
@@ -1103,14 +939,6 @@
       </FlavorProperties>
     </VisualStudio>
   </ProjectExtensions>
-  <Import Project="..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />
-  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
-    <PropertyGroup>
-      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
-    </PropertyGroup>
-    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.2.4.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.2.4.0\build\Microsoft.Net.Compilers.props'))" />
-    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
-  </Target>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

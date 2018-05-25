@@ -78,17 +78,7 @@ namespace K9.WebApplication.Controllers
                 DonationAmount = 10
             });
         }
-
-        [Route("sponsor-iboga/start")]
-        public ActionResult SponsorIbogaStart()
-        {
-            return View(new StripeModel
-            {
-                NumberOfTrees = 1,
-                LocalisedCurrencyThreeLetters = "EUR" // We need to fix the currency to sponsor a tree
-            });
-        }
-
+        
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Donate(StripeModel model)
@@ -96,33 +86,13 @@ namespace K9.WebApplication.Controllers
             model.PublishableKey = _stripeConfig.PublishableKey;
             return View(model);
         }
-
-        [Route("sponsor-iboga")]
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult SponsorIboga(StripeModel model)
-        {
-            if (model.NumberOfTrees < 1)
-            {
-                // Silly, but you never know - may as well procedd with minimum one
-                model.NumberOfTrees = 1;
-            }
-            model.PublishableKey = _stripeConfig.PublishableKey;
-            return View(model);
-        }
-
+        
         [Route("donate/success")]
         public ActionResult DonationSuccess()
         {
             return View();
         }
-
-        [Route("sponsor-iboga/success")]
-        public ActionResult SponsorSuccess()
-        {
-            return View();
-        }
-
+        
         [HttpPost]
         [Route("donate/processing")]
         [ValidateAntiForgeryToken]
@@ -130,7 +100,7 @@ namespace K9.WebApplication.Controllers
         {
             try
             {
-                model.Description = Dictionary.DonationToBOTF;
+                model.Description = Dictionary.Donation;
                 _stripeService.Charge(model);
                 _donationService.CreateDonation(new Donation
                 {
@@ -150,37 +120,6 @@ namespace K9.WebApplication.Controllers
             }
 
             return View("Donate", model);
-        }
-
-        [HttpPost]
-        [Route("sponsor-iboga/processing")]
-        [ValidateAntiForgeryToken]
-        public ActionResult SponsorProcess(StripeModel model)
-        {
-            try
-            {
-                model.Description = Dictionary.SponsorIbogaTree;
-                var transactionId = _stripeService.Charge(model);
-                _donationService.CreateDonation(new Donation
-                {
-                    StripeId = transactionId,
-                    Currency = model.LocalisedCurrencyThreeLetters,
-                    Customer = model.StripeBillingName,
-                    CustomerEmail = model.StripeEmail,
-                    DonationDescription = model.Description,
-                    DonatedOn = DateTime.Now,
-                    DonationAmount = model.DonationAmount,
-                    NumberOfIbogas = model.NumberOfTrees
-                });
-                return RedirectToAction("SponsorSuccess");
-            }
-            catch (Exception ex)
-            {
-                _logger.Error($"SupportController => Sponsor => Sponsor failed: {ex.Message}");
-                ModelState.AddModelError("", ex.Message);
-            }
-
-            return View("SponsorIboga", model);
         }
         
         public override string GetObjectName()

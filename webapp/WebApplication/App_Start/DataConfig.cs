@@ -17,7 +17,10 @@ namespace K9.WebApplication
             var dbConfig = ConfigHelper.GetConfiguration<DatabaseConfiguration>(ConfigurationManager.AppSettings).Value;
             if (dbConfig.IsInitialCreate)
             {
-                var migrator = new DbMigrator(new DatabaseInitialiser<LocalDb>());
+                var migrator = new DbMigrator(new DatabaseInitialiser<LocalDb>
+                {
+                    AutomaticMigrationsEnabled = true
+                });
                 migrator.Update();
             }
             else
