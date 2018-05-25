@@ -88,82 +88,6 @@ namespace K9.Globalisation {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Blessings.
-        /// </summary>
-        public static string Blessings {
-            get {
-                return ResourceManager.GetString("Blessings", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to &lt;p&gt;
-        ///Blessings of the Forest C.I.C is a charity that was set up in October of 2015 in London. It is a &lt;a target=&quot;_blank&quot; href=&quot;https://www.gov.uk/government/publications/community-interest-companies-introduction&quot;&gt;community interest company (CIC)&lt;/a&gt; (Community Interest Company n° 9816364).
-        ///&lt;/p&gt;
-        ///&lt;p&gt;
-        ///    As a charity, it has a stated mission known as
-        ///    the ‘community interest statement’ and a clearly defined set of activities. There
-        ///    are also restrictions on how it can spend its money. The ‘asset lo [rest of string was truncated]&quot;;.
-        /// </summary>
-        public static string blessings_of_the_forest {
-            get {
-                return ResourceManager.GetString("blessings_of_the_forest", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to .
-        /// </summary>
-        public static string blessings_of_the_forest_intro {
-            get {
-                return ResourceManager.GetString("blessings_of_the_forest_intro", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to LOCAL CONTEXT, GLOBAL IMPACT.
-        /// </summary>
-        public static string botf_context_title {
-            get {
-                return ResourceManager.GetString("botf_context_title", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to &lt;p&gt;
-        ///    &lt;strong&gt; Gabon is situated at the very heart of Africa&lt;/strong&gt;, on the Atlantic coast with over 800km of coastline. It straddles the equator as does its neighbour The Republic of the Congo and The Democratic Republic of the Congo (formerly Zaire). In the northwest of the country, along the coastline and embedded within the Gabonese territory, is Equatorial Guinea. The northern border also separates Gabon from Cameroon. The rest of the country runs alongside the Congo, to the east and south. Apart  [rest of string was truncated]&quot;;.
-        /// </summary>
-        public static string botf_context1 {
-            get {
-                return ResourceManager.GetString("botf_context1", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to &lt;p&gt;
-        ///    When the Bantu encountered the Pigmies, they discovered that this indigenous population of Africa practises the worship of animal spirits and is made up of “mediators of the sacred”, which change according to the rites.
-        ///    Throughout the initiation, specific knowledge about the mastery of the forest and the weather elements (rain, lightening…) is acquired, giving rise to a shamanic conception of the workings of the world where the initiated knows how to get in contact with the spirits of nature i [rest of string was truncated]&quot;;.
-        /// </summary>
-        public static string botf_context2 {
-            get {
-                return ResourceManager.GetString("botf_context2", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to &lt;p&gt;
-        ///    The arrival of the first Europeans in Gabon during the 15th century (the Portuguese followed by the Dutch) marked the beginning of the abandonment of the indigenous ancestral initiatory traditions due to the forced evangelisation of the Gabonese peoples as well as to the many consequences of the Slave Trade. The practice of Bwiti was then driven underground.
-        ///&lt;/p&gt;
-        ///&lt;p&gt;
-        ///    France began its progressive occupation of Gabon during the middle of the 19th century, after a treaty signed with the “Roi De [rest of string was truncated]&quot;;.
-        /// </summary>
-        public static string botf_context3 {
-            get {
-                return ResourceManager.GetString("botf_context3", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Change Amount.
         /// </summary>
         public static string ChangeAmount {
@@ -173,7 +97,7 @@ namespace K9.Globalisation {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Our organisation has been set up to preserve, research and share knowledge about the medicinal plants and indigenous traditions of the Gabonese forest people for the benefit of all of humanity..
+        ///   Looks up a localized string similar to Radiance Events designs and produces events (parties, celebrations, pop-ups, soirees, launches, workshops and gatherings) which are magical, beautiful and reflect your own unique personality - whether that is for a personal celebration or gathering, an album launch or as a workshop to promote and share your business..
         /// </summary>
         public static string CompanyBlurbFooter {
             get {
@@ -182,7 +106,7 @@ namespace K9.Globalisation {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Blessings Of The Forest C.I.C is a Community Interest Company, a Social Enterprise registered in England in October 2015 as a Company limited by shares (Company No:09816364)..
+        ///   Looks up a localized string similar to Radiance Events designs and produces events (parties, celebrations, pop-ups, soirees, launches, workshops and gatherings) which are magical, beautiful and reflect your own unique personality - whether that is for a personal celebration or gathering, an album launch or as a workshop to promote and share your business..
         /// </summary>
         public static string CompanyDescription {
             get {
@@ -191,7 +115,7 @@ namespace K9.Globalisation {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Blessings Of The Forest C.I.C is a Community Interest Company, a Social Enterprise registered in England in October 2015 as a Company limited by shares (Company No:09816364)..
+        ///   Looks up a localized string similar to Radiance Events designs and produces events (parties, celebrations, pop-ups, soirees, launches, workshops and gatherings) which are magical, beautiful and reflect your own unique personality - whether that is for a personal celebration or gathering, an album launch or as a workshop to promote and share your business..
         /// </summary>
         public static string CompanyLegalDescription {
             get {
@@ -200,7 +124,7 @@ namespace K9.Globalisation {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Charity comitted to preserving Gabon&apos;s heritage.
+        ///   Looks up a localized string similar to Radiance Events designs and produces magical, beautiful events.
         /// </summary>
         public static string CompanyShortDescription {
             get {
@@ -232,30 +156,6 @@ namespace K9.Globalisation {
         public static string CustomerLabel {
             get {
                 return ResourceManager.GetString("CustomerLabel", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to &lt;h5&gt;David Nassim, co-director of “Blessings Of The Forest” is a practitioner of Chinese medicine and internal martial arts. Since 1999 his studies include shiatsu, acupuncture, nutrition and herbal medicine, Qi Gong and Tai Chi Chuan.&lt;/h5&gt;
-        ///&lt;p&gt;
-        ///	He studied in several places around the world including the UK and Japan.
-        ///	David is trained in permaculture and is involved in a self-sufficient community project in Europe (Portugal).
-        ///	As part of his research in the field of traditional herbalism, he discovered  [rest of string was truncated]&quot;;.
-        /// </summary>
-        public static string david_text {
-            get {
-                return ResourceManager.GetString("david_text", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Practitioner of Chinese medicine
-        ///&lt;p&gt;&lt;strong&gt;Co-director of Blessings Of The Forest&lt;/strong&gt;&lt;/p&gt;
-        ///.
-        /// </summary>
-        public static string david_title {
-            get {
-                return ResourceManager.GetString("david_title", resourceCulture);
             }
         }
         
@@ -296,15 +196,6 @@ namespace K9.Globalisation {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Making a donation to Blessings of The Forest will make an enormous impact on our ability to sucessfully complete our mission. We are tremendously grateful for your support..
-        /// </summary>
-        public static string DonationBlurb {
-            get {
-                return ResourceManager.GetString("DonationBlurb", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to &lt;!DOCTYPE html&gt;
         ///&lt;html lang=&quot;en&quot;&gt;
         ///
@@ -341,21 +232,6 @@ namespace K9.Globalisation {
         public static string Donations {
             get {
                 return ResourceManager.GetString("Donations", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to &lt;h4&gt;&lt;strong&gt;Your generosity will help to fund:&lt;/strong&gt;&lt;/h4&gt;
-        ///&lt;br /&gt;
-        ///
-        ///&lt;ul&gt;
-        ///    &lt;li&gt;&lt;i class=&quot;fa fa-angle-right&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; The tools necessary for the upkeep of the village plantations (wheelbarrow, brush cutters, machetes, axes, watering cans, etc.),&lt;/li&gt;
-        ///    &lt;li&gt;&lt;i class=&quot;fa fa-angle-right&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; The living wages of the villagers maintaining the plantations (15 euros per week per person)&lt;/li&gt;
-        ///    &lt;li&gt;&lt;i class=&quot;fa fa-angle-right&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Proper administra [rest of string was truncated]&quot;;.
-        /// </summary>
-        public static string donations_text {
-            get {
-                return ResourceManager.GetString("donations_text", resourceCulture);
             }
         }
         
@@ -418,347 +294,11 @@ namespace K9.Globalisation {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Donation To Blessings Of The Forest.
-        /// </summary>
-        public static string DonationToBOTF {
-            get {
-                return ResourceManager.GetString("DonationToBOTF", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to &lt;ul&gt;
-        ///    &lt;li class=&quot;scrollFadeUp&quot;&gt;&lt;i class=&quot;fa fa-angle-right&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; &lt;strong&gt;Half of the planet’s forests were destroyed during the 20th century.&lt;/strong&gt;&lt;/li&gt;
-        ///    &lt;li class=&quot;scrollFadeUp&quot;&gt;&lt;i class=&quot;fa fa-angle-right&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Due to the (often unpoliced) use of raw materials such as wood, diamond, gold and precious metals and also due to agriculture and livestock farming, &lt;strong&gt;two thirds of the Congo Basin Forest could be lost by 2040 if nothing is done.&lt;/strong&gt;&lt;/li&gt;        /// [rest of string was truncated]&quot;;.
-        /// </summary>
-        public static string etats_des_lieux_forest {
-            get {
-                return ResourceManager.GetString("etats_des_lieux_forest", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to State of affairs regarding the community forests:.
-        /// </summary>
-        public static string etats_des_lieux_forest_title {
-            get {
-                return ResourceManager.GetString("etats_des_lieux_forest_title", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to &lt;ul&gt;
-        ///    &lt;li class=&quot;scrollFadeUp&quot;&gt;&lt;i class=&quot;fa fa-angle-right&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Despite the public declaration of the late president of the Gabonese republic, El Hadj Omar Bongo Ondimba, made in the Council of Ministers on the 6th July 2000 which classified Iboga as a &lt;span class=&quot;italic bold&quot;&gt;&quot;national cultural heritage”&lt;/span&gt;  and &lt;span class=&quot;italic bold&quot;&gt;”strategic reserve”&lt;/span&gt;&lt;span class=&quot;italic&quot;&gt; (“to be protected from illegal exploitation”)&lt;/span&gt;, &lt;strong&gt;no legal texts&lt;/strong&gt; have bee [rest of string was truncated]&quot;;.
-        /// </summary>
-        public static string etats_des_lieux_iboga {
-            get {
-                return ResourceManager.GetString("etats_des_lieux_iboga", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to State of affairs regarding Iboga:.
-        /// </summary>
-        public static string etats_des_lieux_iboga_title {
-            get {
-                return ResourceManager.GetString("etats_des_lieux_iboga_title", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to STATE OF AFFAIRS.
-        /// </summary>
-        public static string etats_des_lieux_title {
-            get {
-                return ResourceManager.GetString("etats_des_lieux_title", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to &lt;h5&gt;George Gassita is passionate about the area of environmental and heritage conservation.&lt;/h5&gt;
-        ///&lt;p&gt;He is the grandson and spiritual heir of Professor Jean Noël Gassita, international authority on the scientific research on Iboga.&lt;/p&gt;.
-        /// </summary>
-        public static string george_text {
-            get {
-                return ResourceManager.GetString("george_text", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Environmental lawyer
-        ///&lt;p&gt;&lt;strong&gt;In charge of Blessings of The Forest&apos;s legal studies in Gabon&lt;/strong&gt;&lt;/p&gt;
-        ///.
-        /// </summary>
-        public static string george_title {
-            get {
-                return ResourceManager.GetString("george_title", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to &lt;h5&gt;Hubert Bled ELIE NLOH is manager of a community forest of 14 000 hectares known for being the &quot;best managed in Gabon&quot;.&lt;/h5&gt;
-        ///&lt;p&gt;
-        ///    In charge of the first pilot iboga plantation site as well as other plants used medicinally, in cosmetcis or as food.
-        ///&lt;/p&gt;
-        ///&lt;p&gt;
-        ///    Expert in agroforestry and beekeeping.
-        ///&lt;/p&gt;
-        ///&lt;p&gt;
-        ///    Master Initiator of Fang Bwiti (Ceremony &quot;Mbiri&quot; - Branch &quot;Mimbara&quot;).
-        ///&lt;/p&gt;.
-        /// </summary>
-        public static string hubert_text {
-            get {
-                return ResourceManager.GetString("hubert_text", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to President of the Village Association A2E (Ogooué Ivindo - Gabon) - Agroforestry Expert
-        ///&lt;p&gt;&lt;strong&gt;Partner of BOTF (in charge of the pilot plantation project)&lt;/strong&gt;&lt;/p&gt;
-        ///.
-        /// </summary>
-        public static string hubert_title {
-            get {
-                return ResourceManager.GetString("hubert_title", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to &lt;h5&gt;
-        ///    Hugues is Cultural Mediateur and sponsor/partner of Blessings Of The Forest
-        ///&lt;/h5&gt;
-        ///&lt;p&gt;He is also Master Initiator of &quot;Mboma Na Ditsuala&quot; Bwiti&lt;/p&gt;.
-        /// </summary>
-        public static string hugues_text {
-            get {
-                return ResourceManager.GetString("hugues_text", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Cultural Mediator - Founding president of the NGO &quot;Ebando&quot; (Gabon)
-        ///&lt;p&gt;&lt;strong&gt;Honorary President of BOTF Gabon&lt;/strong&gt;&lt;/p&gt;
-        ///
-        ///.
-        /// </summary>
-        public static string hugues_title {
-            get {
-                return ResourceManager.GetString("hugues_title", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to &lt;h4&gt;&lt;strong&gt;Your donation enables Blessings of The Forest to finance several things:&lt;/strong&gt;&lt;/h4&gt;
-        ///&lt;br /&gt;
-        ///
-        ///&lt;ul&gt;
-        ///    &lt;li&gt;
-        ///        &lt;i class=&quot;fa fa-angle-right&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;
-        ///        The running costs of BOTF (local administrative costs, website hosting and development, accountancy fees, legal costs, business cards, logistics, key appointments, occasional support of local correspondants and mediators, communications and raising awareness)
-        ///    &lt;/li&gt;
-        ///    &lt;li&gt;
-        ///        &lt;i class=&quot;fa fa-angle-righ [rest of string was truncated]&quot;;.
-        /// </summary>
-        public static string iboga_sponsor_text {
-            get {
-                return ResourceManager.GetString("iboga_sponsor_text", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Iboga has been sold in western world since 1901.
-        ///						Today, more and more advertising touts iboga as a “miracle cure” without any apparent regard as to the sustainability of the resource.
-        ///						Bought with gold, Iboga is then sold on the Internet in violation of laws protecting it, without equitable sharing of its benefits and a risk of consumers who have no certainty as to its origin and quality.
-        ///						The price of iboga has increased by over 1000% in 15 years making this fundamental Gabonese medicine [rest of string was truncated]&quot;;.
-        /// </summary>
-        public static string iboga_text1 {
-            get {
-                return ResourceManager.GetString("iboga_text1", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to In what can only be described as biopiracy, more than a dozen patents have been filed regarding the therapeutic use of iboga and its chemical derivatives in total disregard of the Nagoya Protocol protecting the people behind this plant and knowledge.
-        ///The ivory trade and iboga trafficking are interlinked. Elephants love iboga fruit and the poachers track and kill them near the last wild reservations of iboga.
-        ///Once they have murdered the elephants, the poachers also take all the iboga found on site.
-        ///With y [rest of string was truncated]&quot;;.
-        /// </summary>
-        public static string iboga_text2 {
-            get {
-                return ResourceManager.GetString("iboga_text2", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Pygmies have used iboga for over 65,000 years before it was discovered in the west.
-        ///					Now, due to over-consumption without any policy of sustainable management, this sacred plant will disappear from the public domain within 5 years.
-        /// </summary>
-        public static string iboga_title1 {
-            get {
-                return ResourceManager.GetString("iboga_title1", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Blessings Of The Forest is committed to building a bridge between traditional Gabonese healers and researchers worldwide. We offer humanity the most sacred knowledge of the art of healing using one of the most sacred plants of our common historic origins..
-        /// </summary>
-        public static string iboga_title2 {
-            get {
-                return ResourceManager.GetString("iboga_title2", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 1 Iboga tree costs {0} to sponsor.
-        /// </summary>
-        public static string IbogaPriceText {
-            get {
-                return ResourceManager.GetString("IbogaPriceText", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Number of Iboga trees planted so far.
-        /// </summary>
-        public static string IbogasPlantedSoFarText {
-            get {
-                return ResourceManager.GetString("IbogasPlantedSoFarText", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to &lt;!DOCTYPE html&gt;
-        ///&lt;html lang=&quot;en&quot;&gt;
-        ///
-        ///&lt;head&gt;
-        ///    &lt;title&gt;{Title}&lt;/title&gt;
-        ///&lt;/head&gt;
-        ///
-        ///&lt;style type=&quot;text/css&quot;&gt;
-        ///    html {
-        ///        margin: 0;
-        ///        padding: 0;
-        ///        font-family: &quot;Segoe UI&quot;, Verdana, Helvetica, Sans-Serif;
-        ///        font-size: 100%;
-        ///        text-rendering: optimizeLegibility !important;
-        ///        -webkit-font-smoothing: antialiased !important;
-        ///        margin: 0;
-        ///        color: #333;
-        ///    }
-        ///&lt;/style&gt;
-        ///
-        ///&lt;body&gt;
-        ///    &lt;p class=&quot;text&quot;&gt;Dear Team,&lt;/p&gt;
-        ///    &lt;p class=&quot;text&quot;&gt;We have received a d [rest of string was truncated]&quot;;.
-        /// </summary>
-        public static string IbogaSponsoredEmail {
-            get {
-                return ResourceManager.GetString("IbogaSponsoredEmail", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Projected number of Iboga trees to be planted in {0}.
-        /// </summary>
-        public static string IbogasProjectedToBePlantedThisYearText {
-            get {
-                return ResourceManager.GetString("IbogasProjectedToBePlantedThisYearText", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Projected number of Iboga trees to be planted by {0}.
-        /// </summary>
-        public static string IbogasProjectedToBePlantedTwoYearsText {
-            get {
-                return ResourceManager.GetString("IbogasProjectedToBePlantedTwoYearsText", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Number of Iboga trees sponsored so far.
-        /// </summary>
-        public static string IbogasSponsoredSoFarText {
-            get {
-                return ResourceManager.GetString("IbogasSponsoredSoFarText", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to &lt;h5&gt;Professor Jean Noël Gassita is senior pharmacist of Gabon and world authority on Iboga research&lt;/h5&gt;
-        ///&lt;p&gt;
-        ///    Expert on tropical plants and traditional medicines
-        ///&lt;/p&gt;
-        ///.
-        /// </summary>
-        public static string jeannoel_text {
-            get {
-                return ResourceManager.GetString("jeannoel_text", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Doctor of Pharmacy - World authority on Iboga research
-        ///&lt;p&gt;&lt;strong&gt;Honorary President of Blessings of The Forest, Gabon&lt;/strong&gt;&lt;/p&gt;
-        ///.
-        /// </summary>
-        public static string jeannoel_title {
-            get {
-                return ResourceManager.GetString("jeannoel_title", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Chartered Accountant
-        ///&lt;p&gt;&lt;strong&gt;Financial Director of BOTF Gabon&lt;/strong&gt;&lt;/p&gt;
-        ///.
-        /// </summary>
-        public static string josephine_title {
-            get {
-                return ResourceManager.GetString("josephine_title", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Iboga Gabon Medicine Healing Entheogen Ibogaine Addiction Transformation.
         /// </summary>
         public static string Keywords {
             get {
                 return ResourceManager.GetString("Keywords", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to &lt;h5&gt;Laurent Sazy is a french photojournalist since 1991. He is covering news, wars( Balkans, Sarajevo and caucasus, Algeria, Libya (2011), also politics, economics and socials news and magazines features for photos agencies, magazines and newspapers/&lt;/h5&gt;
-        ///&lt;p&gt;
-        ///	Laurent was photo-correspondent for The Européan Newspaper in Paris. He works with Sipa, Gamma, Maxppp, Deadline photo agency. In 2006, he joined Fedephoto which became in 2012, Divergence-images, a french plateform for press photographers.
-        ///&lt;/p&gt;
-        ///&lt; [rest of string was truncated]&quot;;.
-        /// </summary>
-        public static string laurent_text {
-            get {
-                return ResourceManager.GetString("laurent_text", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Photographer and French photojournalist
-        ///&lt;p&gt;&lt;strong&gt;Head of Photography, BOTF&lt;/strong&gt;&lt;/p&gt;
-        ///.
-        /// </summary>
-        public static string laurent_title {
-            get {
-                return ResourceManager.GetString("laurent_title", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Laurent Sazy.
-        /// </summary>
-        public static string LaurentSazy {
-            get {
-                return ResourceManager.GetString("LaurentSazy", resourceCulture);
             }
         }
         
@@ -772,121 +312,11 @@ namespace K9.Globalisation {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Blessings.
-        /// </summary>
-        public static string MainTitleLeft {
-            get {
-                return ResourceManager.GetString("MainTitleLeft", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Of The Forest.
-        /// </summary>
-        public static string MainTitleRight {
-            get {
-                return ResourceManager.GetString("MainTitleRight", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Make a Donation.
         /// </summary>
         public static string MakeDonation {
             get {
                 return ResourceManager.GetString("MakeDonation", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to &lt;h5&gt;
-        ///    Marie Lou Miboka is president of Blessings of The Forest, Gabon
-        ///&lt;/h5&gt;
-        ///&lt;p&gt;
-        ///    Marie is a qualified nurse and maker of traditional Bantu / Pygmy jewellery. She is in charge of promoting and developing traditional arts and crafts and is leading projects focussed on bringing financial autonomy to the women of Gabon.
-        ///&lt;/p&gt;.
-        /// </summary>
-        public static string marie_text {
-            get {
-                return ResourceManager.GetString("marie_text", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Nurse
-        ///&lt;p&gt;&lt;strong&gt;President of Blessings of The Forest, Gabon&lt;/strong&gt;&lt;/p&gt;.
-        /// </summary>
-        public static string marie_title {
-            get {
-                return ResourceManager.GetString("marie_title", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to These are our aims in relation to this plant considered as sacred by the Gabonese people.
-        /// </summary>
-        public static string mission_statement_and_aims_title1 {
-            get {
-                return ResourceManager.GetString("mission_statement_and_aims_title1", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to The following aims of Blessings of the Forest do not focus on iboga, but are equally important.
-        /// </summary>
-        public static string mission_statement_and_aims_title2 {
-            get {
-                return ResourceManager.GetString("mission_statement_and_aims_title2", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to &lt;ul&gt;
-        ///	&lt;li class=&quot;scrollFadeUp&quot;&gt;&lt;i class=&quot;fa fa-angle-right&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Providing a voice in the world to explain the impact of the growing international interest for iboga on Gabonese traditions as well as the flora and fauna of Gabon&lt;/li&gt;
-        ///	&lt;li class=&quot;scrollFadeUp&quot;&gt;&lt;i class=&quot;fa fa-angle-right&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Using legal expertise, in partnership with all Gabonese institutions and international organizations involved in the protection of biodiversity and traditional medicines, on ways [rest of string was truncated]&quot;;.
-        /// </summary>
-        public static string mission_statement_and_aims1 {
-            get {
-                return ResourceManager.GetString("mission_statement_and_aims1", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to &lt;ul&gt;
-        ///	&lt;li class=&quot;scrollFadeUp&quot;&gt;&lt;i class=&quot;fa fa-angle-right&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Creating an eco-village with zero environmental impact.
-        ///		The village will be powered by renewable energy systems such as wind and solar. It will also collect, filter, store and distribute rainwater. One or more wells will be drilled to make the village self-sufficient for water.
-        ///		The houses in the village will be made with natural materials of the Gabonese forest. Some structures made out of mobile shipping containers e [rest of string was truncated]&quot;;.
-        /// </summary>
-        public static string mission_statement_and_aims2 {
-            get {
-                return ResourceManager.GetString("mission_statement_and_aims2", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Number Of Iboga Trees Sponsored.
-        /// </summary>
-        public static string NumberOfIbogasSponsoredLabel {
-            get {
-                return ResourceManager.GetString("NumberOfIbogasSponsoredLabel", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to How many Iboga trees would you like to sponsor?.
-        /// </summary>
-        public static string NumberOfTreesLabel {
-            get {
-                return ResourceManager.GetString("NumberOfTreesLabel", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to On The Brink Of Extinction.
-        /// </summary>
-        public static string OnTheBrinkOfExtinctionTitle {
-            get {
-                return ResourceManager.GetString("OnTheBrinkOfExtinctionTitle", resourceCulture);
             }
         }
         
@@ -923,60 +353,11 @@ namespace K9.Globalisation {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Photos by.
-        /// </summary>
-        public static string PhotographyBy {
-            get {
-                return ResourceManager.GetString("PhotographyBy", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Projects.
         /// </summary>
         public static string Projects {
             get {
                 return ResourceManager.GetString("Projects", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to &lt;ul&gt;
-        ///    &lt;li class=&quot;scrollFadeUp&quot;&gt;&lt;i class=&quot;fa fa-angle-right&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; In collaboration with traditional practitioners, &lt;strong&gt;compiling and exchange of information on the best practices&lt;/strong&gt; that are an integral part of traditional culture and use of Iboga as well as other medicinal plants within the territory of Gabon.&lt;/li&gt;
-        ///    &lt;li class=&quot;scrollFadeUp&quot;&gt;&lt;i class=&quot;fa fa-angle-right&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; &lt;strong&gt;Collection of seeds of each species of Iboga&lt;/strong&gt; with a view to cr [rest of string was truncated]&quot;;.
-        /// </summary>
-        public static string projects_long_term {
-            get {
-                return ResourceManager.GetString("projects_long_term", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Medium to long-term projects:.
-        /// </summary>
-        public static string projects_long_term_title {
-            get {
-                return ResourceManager.GetString("projects_long_term_title", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to &lt;ul&gt;
-        ///    &lt;li class=&quot;scrollFadeUp&quot;&gt;&lt;i class=&quot;fa fa-angle-right&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; &lt;strong&gt;Identification of Gabonese associations&lt;/strong&gt; who wish to develop agroforestry and permaculture projects focussing on the conservation of Iboga and &quot;useful plants” of Gabon (Non-Timber Forest Products (NTFPs) with significant food, cosmetic and therapeutic potential, as well as dwindling large trees), giving priority to those which are managing the Gabonese community forests.&lt;/li&gt;
-        ///    &lt;li class=&quot;scrollFadeUp&quot; [rest of string was truncated]&quot;;.
-        /// </summary>
-        public static string projects_short_term {
-            get {
-                return ResourceManager.GetString("projects_short_term", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Short-term projects:.
-        /// </summary>
-        public static string projects_short_term_title {
-            get {
-                return ResourceManager.GetString("projects_short_term_title", resourceCulture);
             }
         }
         
@@ -990,129 +371,11 @@ namespace K9.Globalisation {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to &lt;h5&gt;
-        ///    Quevain is the liaison officer with the Village Communities
-        ///&lt;/h5&gt;.
-        /// </summary>
-        public static string quevain_text {
-            get {
-                return ResourceManager.GetString("quevain_text", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Project Coordinator of NGO &quot;Conservation Justice&quot; (Partner of BOTF, Gabon)
-        ///&lt;p&gt;&lt;strong&gt;Correspondant between BOTF and village associations&lt;/strong&gt;&lt;/p&gt;
-        ///.
-        /// </summary>
-        public static string quevain_title {
-            get {
-                return ResourceManager.GetString("quevain_title", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to &lt;h5&gt;
-        ///    Rudy is Treasurer of the NGO Ebando (Gabon)
-        ///&lt;/h5&gt;
-        ///&lt;p&gt;
-        ///    He is also Tree Nursery Project Coordinator of Blessings Of The Forest
-        ///&lt;/p&gt;.
-        /// </summary>
-        public static string rudy_text {
-            get {
-                return ResourceManager.GetString("rudy_text", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Fisherman and herbalist
-        ///&lt;p&gt;&lt;strong&gt;Advisor &amp; Planter, BOTF Gabon&lt;/strong&gt;&lt;/p&gt;
-        ///.
-        /// </summary>
-        public static string rudy_title {
-            get {
-                return ResourceManager.GetString("rudy_title", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Shop.
-        /// </summary>
-        public static string Shop {
-            get {
-                return ResourceManager.GetString("Shop", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to &lt;h5&gt;Simon Glantz is a holistic nutritionist, musician and software developer&lt;/h5&gt;
-        ///&lt;p&gt;
-        ///    Simon suffered with severe neurological dysfunction from an early age and continued to struggle well into his adult life. Simon used the principles of person-centered nutrition and supplementation, as well as many other holistic and traditional healing modalities, to fully recover his mental and physical health and now teaches holistic nutrition, which is taylored to the individual&apos;s genotype, circumstances and lifes [rest of string was truncated]&quot;;.
-        /// </summary>
-        public static string simon_text {
-            get {
-                return ResourceManager.GetString("simon_text", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Software developer and nutritionist
-        ///&lt;p&gt;&lt;strong&gt;Webmaster, BOTF&lt;/strong&gt;&lt;/p&gt;
-        ///.
-        /// </summary>
-        public static string simon_title {
-            get {
-                return ResourceManager.GetString("simon_title", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Sponsor an Iboga Tree.
-        /// </summary>
-        public static string SponsorIbogaTree {
-            get {
-                return ResourceManager.GetString("SponsorIbogaTree", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to &lt;!DOCTYPE html&gt;
-        ///&lt;html lang=&quot;en&quot;&gt;
-        ///
-        ///&lt;head&gt;
-        ///    &lt;title&gt;{Title}&lt;/title&gt;
-        ///&lt;/head&gt;
-        ///
-        ///&lt;style type=&quot;text/css&quot;&gt;
-        ///    html {
-        ///        margin: 0;
-        ///        padding: 0;
-        ///        font-family: &quot;Segoe UI&quot;, Verdana, Helvetica, Sans-Serif;
-        ///        font-size: 100%;
-        ///        text-rendering: optimizeLegibility !important;
-        ///        -webkit-font-smoothing: antialiased !important;
-        ///        margin: 0;
-        ///        color: #333;
-        ///    }
-        ///&lt;/style&gt;
-        ///
-        ///&lt;body&gt;
-        ///    &lt;p class=&quot;text&quot;&gt;Dear {CustomerName},&lt;/p&gt;
-        ///    &lt;p class=&quot;text&quot;&gt;Thank you  [rest of string was truncated]&quot;;.
-        /// </summary>
-        public static string SponsorThankYouEmail {
-            get {
-                return ResourceManager.GetString("SponsorThankYouEmail", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to &lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;
         ///&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; &gt;
         ///
         ///&lt;head&gt;
-        ///    &lt;title&gt;Puppydog Software&lt;/title&gt;
+        ///    &lt;title&gt;Radiance Events&lt;/title&gt;
         ///&lt;/head&gt;
         ///
         ///&lt;style type=&quot;text/css&quot;&gt;
@@ -1126,7 +389,7 @@ namespace K9.Globalisation {
         ///    }}
         ///    .title
         ///    {{
-        ///    [rest of string was truncated]&quot;;.
+        ///      [rest of string was truncated]&quot;;.
         /// </summary>
         public static string SupportQuery {
             get {
@@ -1140,34 +403,6 @@ namespace K9.Globalisation {
         public static string ThankyouForDonationEmailTitle {
             get {
                 return ResourceManager.GetString("ThankyouForDonationEmailTitle", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Thank you for helping to save the Iboga tree.
-        /// </summary>
-        public static string ThankyouForSponorEmailTitle {
-            get {
-                return ResourceManager.GetString("ThankyouForSponorEmailTitle", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to &lt;p&gt;
-        ///    The Iboga trees planted directly as a result of your donations in the heart of the community forests supported by BOTF are listed separately from those planted by the village communities who have taken the initiative to invest in the Iboga plantations as a result of our awareness campaigns and without our financial support, but who wish to participate in time in the agricultural cooperative programme labelled &quot;equitable &amp; sustainable&quot;, which is just as committed to the Gabonese national market as i [rest of string was truncated]&quot;;.
-        /// </summary>
-        public static string tree_counter_text {
-            get {
-                return ResourceManager.GetString("tree_counter_text", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to You would like to contribute:.
-        /// </summary>
-        public static string TreeDonationAmountLabel {
-            get {
-                return ResourceManager.GetString("TreeDonationAmountLabel", resourceCulture);
             }
         }
         
@@ -1200,27 +435,6 @@ namespace K9.Globalisation {
         public static string WelcomeEmail {
             get {
                 return ResourceManager.GetString("WelcomeEmail", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to &lt;h5&gt;Yann Guignon is the founder of “Blessings Of The Forest” and the main driver of our strategic direction, managing all our activities in Gabon.&lt;/h5&gt;
-        ///&lt;p&gt;
-        ///	He was initiated to the Gabonese traditions, first in 2006 by Master Atome Ribenga, and was trained to exercise the traditional function of ” Kambo ” (Temple Guardian) by Ribenga and also by Hugues Obiang Poitevin (Ebando NGOs) as well as with other initiatory masters of different branches of the Bwiti. Yann studied iboga intensively and worked with t [rest of string was truncated]&quot;;.
-        /// </summary>
-        public static string yann_text {
-            get {
-                return ResourceManager.GetString("yann_text", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Intercultural mediation and sustainable development consultant
-        ///&lt;p&gt;&lt;strong&gt;Director and founder of Blessings Of The Forest&lt;/strong&gt;&lt;/p&gt;.
-        /// </summary>
-        public static string yann_title {
-            get {
-                return ResourceManager.GetString("yann_title", resourceCulture);
             }
         }
     }

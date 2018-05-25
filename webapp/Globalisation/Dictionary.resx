@@ -127,131 +127,23 @@
   <data name="WelcomeEmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>templates\en-gb\welcomeemail.htm;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="blessings_of_the_forest" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>articles\en-gb\blessings-of-the-forest.htm;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
   <data name="Keywords" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>text\en-gb\keywords.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="blessings_of_the_forest_intro" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>articles\en-gb\blessings-of-the-forest-intro.htm;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="mission_statement_and_aims1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>articles\en-gb\mission-statement-and-aims1.htm;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="mission_statement_and_aims2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>articles\en-gb\mission-statement-and-aims2.htm;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="mission_statement_and_aims_title1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>articles\en-gb\mission-statement-and-aims-title1.htm;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="mission_statement_and_aims_title2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>articles\en-gb\mission-statement-and-aims-title2.htm;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="david_text" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>articles\en-gb\david-text.htm;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="david_title" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>articles\en-gb\david-title.htm;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="iboga_text1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>articles\en-gb\iboga-text1.htm;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="iboga_text2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>articles\en-gb\iboga-text2.htm;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="iboga_title1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>articles\en-gb\iboga-title1.htm;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="iboga_title2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>articles\en-gb\iboga-title2.htm;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="laurent_text" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>articles\en-gb\laurent-text.htm;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="laurent_title" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>articles\en-gb\laurent-title.htm;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="simon_text" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>articles\en-gb\simon-text.htm;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="yann_text" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>articles\en-gb\yann-text.htm;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="yann_title" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>articles\en-gb\yann-title.htm;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="Blessings" xml:space="preserve">
-    <value>Blessings</value>
-  </data>
   <data name="CompanyBlurbFooter" xml:space="preserve">
-    <value>Our organisation has been set up to preserve, research and share knowledge about the medicinal plants and indigenous traditions of the Gabonese forest people for the benefit of all of humanity.</value>
+    <value>Radiance Events designs and produces events (parties, celebrations, pop-ups, soirees, launches, workshops and gatherings) which are magical, beautiful and reflect your own unique personality - whether that is for a personal celebration or gathering, an album launch or as a workshop to promote and share your business.</value>
   </data>
   <data name="CompanyDescription" xml:space="preserve">
-    <value>Blessings Of The Forest C.I.C is a Community Interest Company, a Social Enterprise registered in England in October 2015 as a Company limited by shares (Company No:09816364).</value>
+    <value>Radiance Events designs and produces events (parties, celebrations, pop-ups, soirees, launches, workshops and gatherings) which are magical, beautiful and reflect your own unique personality - whether that is for a personal celebration or gathering, an album launch or as a workshop to promote and share your business.</value>
   </data>
   <data name="CompanyLegalDescription" xml:space="preserve">
-    <value>Blessings Of The Forest C.I.C is a Community Interest Company, a Social Enterprise registered in England in October 2015 as a Company limited by shares (Company No:09816364).</value>
+    <value>Radiance Events designs and produces events (parties, celebrations, pop-ups, soirees, launches, workshops and gatherings) which are magical, beautiful and reflect your own unique personality - whether that is for a personal celebration or gathering, an album launch or as a workshop to promote and share your business.</value>
   </data>
   <data name="CompanyShortDescription" xml:space="preserve">
-    <value>Charity comitted to preserving Gabon's heritage</value>
-  </data>
-  <data name="MainTitleLeft" xml:space="preserve">
-    <value>Blessings</value>
-  </data>
-  <data name="MainTitleRight" xml:space="preserve">
-    <value>Of The Forest</value>
-  </data>
-  <data name="OnTheBrinkOfExtinctionTitle" xml:space="preserve">
-    <value>On The Brink Of Extinction</value>
-  </data>
-  <data name="botf_context1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>articles\en-gb\botf_context1.htm;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="botf_context2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>articles\en-gb\botf_context2.htm;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="botf_context3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>articles\en-gb\botf_context3.htm;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="botf_context_title" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>articles\en-gb\botf_context_title.htm;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="etats_des_lieux_forest" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>articles\en-gb\etats-des-lieux-forest.htm;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="etats_des_lieux_forest_title" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>articles\en-gb\etats-des-lieux-forest-title.htm;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="etats_des_lieux_iboga" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>articles\en-gb\etats-des-lieux-iboga.htm;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="etats_des_lieux_iboga_title" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>articles\en-gb\etats-des-lieux-iboga-title.htm;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="etats_des_lieux_title" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>articles\en-gb\etats-des-lieux-title.htm;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+    <value>Radiance Events designs and produces magical, beautiful events</value>
   </data>
   <data name="Projects" xml:space="preserve">
     <value>Projects</value>
-  </data>
-  <data name="projects_long_term" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>articles\en-gb\projects-long-term.htm;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="projects_long_term_title" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>articles\en-gb\projects-long-term-title.htm;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="projects_short_term" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>articles\en-gb\projects-short-term.htm;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="projects_short_term_title" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>articles\en-gb\projects-short-term-title.htm;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="simon_title" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>articles\en-gb\simon-title.htm;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="Shop" xml:space="preserve">
-    <value>Shop</value>
   </data>
   <data name="Loading" xml:space="preserve">
     <value>Loading...</value>
@@ -277,9 +169,6 @@
   <data name="AmountToDonateLabel" xml:space="preserve">
     <value>You would like to donate:</value>
   </data>
-  <data name="DonationToBOTF" xml:space="preserve">
-    <value>Donation To Blessings Of The Forest</value>
-  </data>
   <data name="CustomerLabel" xml:space="preserve">
     <value>Customer</value>
   </data>
@@ -291,9 +180,6 @@
   </data>
   <data name="CustomerEmailLabel" xml:space="preserve">
     <value>Customer Email Address</value>
-  </data>
-  <data name="DonationBlurb" xml:space="preserve">
-    <value>Making a donation to Blessings of The Forest will make an enormous impact on our ability to sucessfully complete our mission. We are tremendously grateful for your support.</value>
   </data>
   <data name="DonationReceivedEmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>templates\en-gb\donationreceivedemail.htm;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
@@ -310,112 +196,16 @@
   <data name="Donation" xml:space="preserve">
     <value>Donation</value>
   </data>
-  <data name="donations_text" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>text\en-gb\donations-text.htm;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="LaurentSazy" xml:space="preserve">
-    <value>Laurent Sazy</value>
-  </data>
-  <data name="PhotographyBy" xml:space="preserve">
-    <value>Photos by</value>
-  </data>
-  <data name="george_text" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>articles\en-gb\george-text.htm;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="george_title" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>articles\en-gb\george-title.htm;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="hubert_title" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>articles\en-gb\hubert-title.htm;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="josephine_title" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>articles\en-gb\josephine-title.htm;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
   <data name="Back" xml:space="preserve">
     <value>Back</value>
   </data>
   <data name="DonationThankYouEmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>templates\en-gb\donationthankyouemail.htm;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="hubert_text" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>articles\en-gb\hubert-text.htm;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="hugues_text" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>articles\en-gb\hugues-text.htm;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="hugues_title" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>articles\en-gb\hugues-title.htm;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="IbogaSponsoredEmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>templates\en-gb\ibogasponsoredemail.htm;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="iboga_sponsor_text" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>text\en-gb\iboga-sponsor-text.htm;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="jeannoel_text" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>articles\en-gb\jeannoel-text.htm;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="jeannoel_title" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>articles\en-gb\jeannoel-title.htm;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="marie_text" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>articles\en-gb\marie-text.htm;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="marie_title" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>articles\en-gb\marie-title.htm;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="NumberOfIbogasSponsoredLabel" xml:space="preserve">
-    <value>Number Of Iboga Trees Sponsored</value>
-  </data>
-  <data name="NumberOfTreesLabel" xml:space="preserve">
-    <value>How many Iboga trees would you like to sponsor?</value>
-  </data>
-  <data name="quevain_text" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>articles\en-gb\quevain-text.htm;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="quevain_title" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>articles\en-gb\quevain-title.htm;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="rudy_text" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>articles\en-gb\rudy-text.htm;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="rudy_title" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>articles\en-gb\rudy-title.htm;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="SponsorIbogaTree" xml:space="preserve">
-    <value>Sponsor an Iboga Tree</value>
-  </data>
-  <data name="SponsorThankYouEmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>templates\en-gb\sponsorthankyouemail.htm;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
   <data name="ThankyouForDonationEmailTitle" xml:space="preserve">
     <value>Thank you for your donation</value>
   </data>
-  <data name="ThankyouForSponorEmailTitle" xml:space="preserve">
-    <value>Thank you for helping to save the Iboga tree</value>
-  </data>
-  <data name="TreeDonationAmountLabel" xml:space="preserve">
-    <value>You would like to contribute:</value>
-  </data>
-  <data name="IbogasPlantedSoFarText" xml:space="preserve">
-    <value>Number of Iboga trees planted so far</value>
-  </data>
-  <data name="IbogasProjectedToBePlantedThisYearText" xml:space="preserve">
-    <value>Projected number of Iboga trees to be planted in {0}</value>
-  </data>
-  <data name="IbogasSponsoredSoFarText" xml:space="preserve">
-    <value>Number of Iboga trees sponsored so far</value>
-  </data>
   <data name="ProjectStats" xml:space="preserve">
     <value>Project Stats</value>
-  </data>
-  <data name="tree_counter_text" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>text\en-gb\tree-counter-text.htm;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="IbogasProjectedToBePlantedTwoYearsText" xml:space="preserve">
-    <value>Projected number of Iboga trees to be planted by {0}</value>
-  </data>
-  <data name="IbogaPriceText" xml:space="preserve">
-    <value>1 Iboga tree costs {0} to sponsor</value>
   </data>
 </root>
