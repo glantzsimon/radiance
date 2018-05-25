@@ -1,0 +1,167 @@
+﻿@using System.Globalization
+@using K9.SharedLibrary.Extensions
+@using K9.SharedLibrary.Helpers
+<script type="text/javascript">
+
+	$(function () {
+		$.fn.formatBytes = function (bytes, si) {
+			var thresh = si ? 1000 : 1024;
+			if (Math.abs(bytes) < thresh) {
+				return bytes + ' B';
+			}
+			var units = ['KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB'];
+			var u = -1;
+			do {
+				bytes /= thresh;
+				++u;
+			} while (Math.abs(bytes) >= thresh && u < units.length - 1);
+			return bytes.toFixed(1) + ' ' + units[u];
+		};
+
+		$.fn.createGuid = function () {
+			return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
+				var r = Math.random() * 16 | 0, v = c === 'x' ? r : (r & 0x3 | 0x8);
+				return v.toString(16);
+			});
+		};
+
+		var entityMap = {
+			"&": "&amp;",
+			"<": "&lt;",
+			">": "&gt;",
+			'"': '&quot;',
+			"'": '&#39;',
+			"/": '&#x2F;'
+		};
+
+		$.fn.htmlEncode = function(text) {
+			return String(text).replace(/[&<>"'\/]/g, function (s) {
+				return entityMap[s];
+			});
+		};
+
+		$.fn.getFileExtension = function(filename) {
+			return '.' + filename.split('.').pop();
+		};
+
+		$.fn.isImage = function(filename) {
+			return @(MvcHtmlString.Create(Json.Encode(HelperMethods.GetImageFileExtensions().ToArray()))).indexOf($.fn.getFileExtension(filename)) >= 0;
+        };
+
+	    $.fn.isVideo = function(filename) {
+	        return @(MvcHtmlString.Create(Json.Encode(HelperMethods.GetVideoFileExtensions().ToArray()))).indexOf($.fn.getFileExtension(filename)) >= 0;
+        };
+
+	    $.fn.isAudio = function(filename) {
+	        return @(MvcHtmlString.Create(Json.Encode(HelperMethods.GetAudioFileExtensions().ToArray()))).indexOf($.fn.getFileExtension(filename)) >= 0;
+        };
+
+	    $.fn.getFileNameWithoutExtension = function(fileName) {
+	        return fileName.substring(0, fileName.lastIndexOf("."));
+	    };
+
+        $.fn.getShortFileName = function(fileName) {
+            var nameWithoutExt = $.fn.getFileNameWithoutExtension(fileName);
+            var nameLength = nameWithoutExt.length;
+            var maxLength = 15;
+            return nameWithoutExt.substring(0, nameLength < maxLength ? nameLength : maxLength) + '....' + $.fn.getFileExtension(fileName);
+        }
+
+	    $.fn.setAcceptedFileExtensions = function(fileInput, type) {
+	        var accepted;
+	        switch (type) {
+            case "@MvcHtmlString.Create(Dictionary.Videos)":
+	            accepted = "@HelperMethods.GetVideoFileExtensions().ToDelimitedString()";
+                break;
+
+            case "@MvcHtmlString.Create(Dictionary.Audio)":
+	            accepted = "@HelperMethods.GetAudioFileExtensions().ToDelimitedString()";
+                break;
+
+            case "@MvcHtmlString.Create(Dictionary.Photos)":
+	            accepted = "@HelperMethods.GetImageFileExtensions().ToDelimitedString()";
+	            break;
+
+	        default:
+	            accepted = "*";
+	            break;
+	        }
+	        fileInput.attr("accept", accepted);
+        };
+
+	    $.fn.scrollToTopOf = function(el) {
+	        var offset = el.offset();
+	        $("html, body").animate({
+	            scrollTop: offset.top
+	        }, 40);
+        };
+
+	    $.fn.displayValidationWarningFor = function(field, validationMessage) {
+	        var validationSpan = $("span[data-valmsg-for='" + field + "']");
+	        validationSpan.html("<span for='" + field + "' generated='true'>" + validationMessage + ".</span>");
+	        validationSpan.removeClass("field-validation-valid");
+	        validationSpan.addClass("field-validation-error warning");
+        };
+
+	    $.fn.hideValidationWarningFor = function(field) {
+	        var validationSpan = $("span[data-valmsg-for='" + field + "']");
+            validationSpan.removeClass("warning");
+        };
+
+	    $.fn.displayCounter = function(selector, max, duration) {
+	        $(selector).each(function () {
+	            $(this).prop("Counter",0).animate({
+	                Counter: max
+	            }, {
+                    duration: duration || 2000,
+	                easing: "swing",
+	                step: function (value) {
+                        $(this).text(Math.ceil(value));
+	                }
+	            });
+	        });
+	    };
+
+	    $.fn.loadLinkImagePreview = function($el) {
+	        var url = $el.attr("data-url");
+	        ajaxcontroller().get("@Url.Action("GetLinkPreview", "Archive")", { url: url }).done(
+	            function(result) {
+	                if (result.success && result.data) {
+	                    $el.attr("style", "background-image: url('" + result.data.ImageUrl + "');");
+	                }
+	            });
+	    }
+
+	    $.fn.getFullPathTo = function(path)
+	    {
+	        path = path.indexOf("/") === 0 ? path.substring(1) : path;
+	        return "@($"{HttpContext.Current.Request.Url.Scheme}://{HttpContext.Current.Request.Url.Authority}{Url.Content("~")}")" + path;
+	    }
+
+		bootstrapControls({
+			language: "@CultureInfo.CurrentUICulture.TwoLetterISOLanguageName.ToLower()",
+            dateFormat: "@CultureInfo.CurrentUICulture.DateTimeFormat.ShortDatePattern.ToUpper()"
+		}).init();
+
+		buttonBehaviours().init();
+
+		fadePageIn({
+		    isFirstLoad: @SessionHelper.GetBoolValue("SessionConstants.IsFirstLoad").ToString().ToLower()
+		}).init();
+
+		scroller().init();
+
+		fileUploader({
+			deleteText: "@MvcHtmlString.Create(Dictionary.Delete)",
+			filesSelectedText: "@MvcHtmlString.Create(Dictionary.FilesSelected)"
+        }).init();
+
+        navbar().init();
+
+	    revealText({
+            moreText: "@Dictionary.More",
+            lessText: "@Dictionary.Less"
+	    }).init();
+	});
+
+</script>

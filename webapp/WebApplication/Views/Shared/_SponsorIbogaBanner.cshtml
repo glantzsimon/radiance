@@ -1,0 +1,25 @@
+﻿@using System.Globalization
+@using K9.Base.WebApplication.Extensions
+@using K9.SharedLibrary.Authentication
+@using K9.SharedLibrary.Helpers
+@{
+    var roles = this.GetRoles();
+}
+@if (!roles.CurrentUserIsInRoles(RoleNames.Administrators))
+{
+    <div id="plant-iboga-banner" class="menu-main">
+        <a href="@Url.Action("SponsorIbogaStart", "Support")">
+            <img class="plant-iboga iboga-med" src="~/Images/iboga/plant-a-tree-med.png" />
+            <img class="plant-iboga iboga-small" src="~/Images/iboga/plant-a-tree-small.png" />
+        </a>
+        <div class="iboga-text-container">
+            <a href="@Url.Action("SponsorIbogaStart", "Support")">
+                <div id="iboga-text">
+                    <span>
+                        @K9.Globalisation.Dictionary.SponsorIbogaTree @Dictionary.For <strong>@(10.ToString("C2", CurrencyTools.GetCultureInfoFromIso("EUR")))</strong>
+                    </span>
+                </div>
+            </a>
+        </div>
+    </div>
+}
