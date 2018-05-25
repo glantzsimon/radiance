@@ -36,11 +36,7 @@
                         {
                             <li class="@ViewContext.GetActiveClass("Index", "Roles") sub-item"><a href="@Url.Action("Index", "Roles")">@Dictionary.Roles</a></li>
                         }
-                        @if (roles.CurrentUserIsInRoles(RoleNames.Administrators) || roles.CurrentUserHasPermissions<ProjectDetail>(Permissions.Edit))
-                        {
-                            <li class="@ViewContext.GetActiveClass("Index", "ProjectDetails") sub-item"><a href="@Url.Action("Index", "ProjectDetails")">@K9.Globalisation.Dictionary.ProjectStats</a></li>
-                        }
-                        @if (roles.CurrentUserIsInRoles(RoleNames.Administrators))
+                         @if (roles.CurrentUserIsInRoles(RoleNames.Administrators))
                         {
                             <li class="@ViewContext.GetActiveClass("Index", "RolePermissions") sub-item"><a href="@Url.Action("Index", "RolePermissions")">@Dictionary.Role @Dictionary.Permissions</a></li>
                             <li class="@ViewContext.GetActiveClass("Index", "Users") sub-item"><a href="@Url.Action("Index", "Users")">@Dictionary.Users</a></li>
@@ -51,8 +47,6 @@
             </ul>
         }
         <ul class="site-controls">
-            <li class="@ViewContext.GetActiveClass("DonateStart", "Support")"><a title="@K9.Globalisation.Dictionary.Donate" href="@Url.Action("DonateStart", "Support")"><span class="glyphicon glyphicon-euro"></span><span class="site-controls-text"> @K9.Globalisation.Dictionary.Donate</span></a></li>
-            <li class="@ViewContext.GetActiveClass("Index", "Shop")"><a title="@K9.Globalisation.Dictionary.Shop" href="@Url.Action("Index", "Shop")"><span class="glyphicon glyphicon-shopping-cart"></span><span class="site-controls-text"> @K9.Globalisation.Dictionary.Shop</span></a></li>
             @Html.LoginLogout()
             @if (WebSecurity.IsAuthenticated)
             {
@@ -79,11 +73,11 @@
                 </div>
                 <div class="collapse navbar-collapse menu-main" id="bs-navbar-collapse-1">
                     <ul id="main-navbar" class="nav navbar-nav">
-                        <li class="@ViewContext.GetActiveClass("Index", "Projects")"><a href="@Url.Action("Index", "Projects")"> @K9.Globalisation.Dictionary.Projects</a></li>
-                        <li class="@ViewContext.GetActiveClass("Index", "News")"><a href="@Url.Action("Index", "News")"> @Dictionary.News</a></li>
+                        @*<li class="@ViewContext.GetActiveClass("Index", "Projects")"><a href="@Url.Action("Index", "Projects")"> @K9.Globalisation.Dictionary.Projects</a></li>
+                        <li class="@ViewContext.GetActiveClass("Index", "News")"><a href="@Url.Action("Index", "News")"> @Dictionary.News</a></li>*@
                         <li class="@ViewContext.GetActiveClass("Index", "Home")"><a class="device-only" href="@Url.Action("Index", "Home")"> <span class="device-only">@Dictionary.Home</span></a></li>
-                        <li class="@ViewContext.GetActiveClass("Team", "AboutUs")"><a href="@Url.Action("Team", "AboutUs")"> @Dictionary.OurTeam</a></li>
-                        <li class="@ViewContext.GetActiveClass("Index", "Archive")"><a href="@Url.Action("Index", "Archive")"> @Dictionary.Archive</a></li>
+                        @*<li class="@ViewContext.GetActiveClass("Team", "AboutUs")"><a href="@Url.Action("Team", "AboutUs")"> @Dictionary.OurTeam</a></li>
+                        <li class="@ViewContext.GetActiveClass("Index", "Archive")"><a href="@Url.Action("Index", "Archive")"> @Dictionary.Archive</a></li>*@
                     </ul>
                     <div class="clearfix"> </div>
                 </div>

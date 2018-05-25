@@ -22,8 +22,6 @@ using System.Data.Entity;
 using System.IO;
 using System.Web.Hosting;
 using System.Web.Mvc;
-using K9.DataAccessLayer.Models;
-using K9.WebApplication.Helpers;
 using HtmlHelpers = K9.Base.WebApplication.Helpers.HtmlHelpers;
 
 namespace K9.WebApplication
@@ -56,7 +54,6 @@ namespace K9.WebApplication
             builder.RegisterType<FileSourceHelper>().As<IFileSourceHelper>().InstancePerRequest();
             builder.RegisterGeneric(typeof(ControllerPackage<>)).As(typeof(IControllerPackage<>)).InstancePerRequest();
             builder.RegisterType<AccountService>().As<IAccountService>().InstancePerRequest();
-            builder.RegisterType<ShopService>().As<IShopService>().InstancePerRequest();
             builder.RegisterType<FacebookService>().As<IFacebookService>().InstancePerRequest();
             builder.RegisterType<StripeService>().As<IStripeService>().InstancePerRequest();
             builder.RegisterType<DonationService>().As<IDonationService>().InstancePerRequest();
