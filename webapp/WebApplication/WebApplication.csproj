@@ -277,8 +277,6 @@
     <Content Include="Content\site\desktop.css" />
     <Content Include="Content\site\elements.css" />
     <Content Include="Content\site\mobile.css" />
-    <Content Include="Content\site\sections\iboga.css" />
-    <Content Include="Content\site\sections\shop.css" />
     <Content Include="Content\site\sections\archive.css" />
     <Content Include="Content\site\shared.css" />
     <Content Include="Content\site\tablet.css" />
@@ -307,12 +305,15 @@
     <Content Include="Content\bootstrap\bootstrap.css" />
     <Content Include="Content\bootstrap\bootstrapValidator.css" />
     <Content Include="Content\k9\fadeIn.css" />
-    <Content Include="Content\_botfColors.txt" />
+    <Content Include="Content\_radianceColors.txt" />
     <Content Include="Content\site\navbar.css" />
     <Content Include="Content\site\tables.css" />
     <Content Include="Content\k9\pageSpinner.css" />
     <Content Include="Content\_colors.txt" />
     <Content Include="Global.asax" />
+    <Content Include="Images\company\logo-small.png" />
+    <Content Include="Images\company\logo.png" />
+    <Content Include="Images\shared\radiance_loader.gif" />
     <Content Include="Images\flags\ad.png" />
     <Content Include="Images\flags\ae.png" />
     <Content Include="Images\flags\af.png" />
@@ -579,8 +580,6 @@
     <Content Include="Images\icons\logo-small.png" />
     <Content Include="Images\icons\logo.png" />
     <Content Include="Images\icons\safari-pinned-tab.svg" />
-    <Content Include="Images\shared\blessings_loader.gif" />
-    <Content Include="Images\shared\botf_logo_animated.gif" />
     <Content Include="Images\template\1.jpg" />
     <Content Include="Images\template\2.jpg" />
     <Content Include="Images\template\3.jpg" />
@@ -650,7 +649,6 @@
     <Folder Include="App_Data\" />
     <Folder Include="Images\archive\upload\ArchiveItem\" />
     <Folder Include="Images\background\" />
-    <Folder Include="Images\company\" />
     <Folder Include="Images\home\" />
     <Folder Include="Options\" />
     <Folder Include="Upload\" />
@@ -836,7 +834,7 @@
     <Content Include="Views\Shared\DisplayTemplates\ArchiveCategory.cshtml" />
     <Content Include="Views\Shared\EditorTemplates\ArchiveCategory.cshtml" />
     <Content Include="Views\Shared\_UploadedFilesDisplay.cshtml" />
-    <Content Include="Views\Home\_Botf.cshtml" />
+    <Content Include="Views\Home\_Radiance.cshtml" />
     <Content Include="Views\Home\_Mission.cshtml" />
     <Content Include="Views\Home\_Context.cshtml" />
     <Content Include="Views\Home\_Partners.cshtml" />
