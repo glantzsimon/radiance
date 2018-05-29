@@ -55,9 +55,6 @@
         </ul>
     </div>
 </div>
-<div id="main-logo-container" class="menu-main">
-    <a class="@ViewContext.GetActiveClass("Index", "Home")" href="@Url.Action("Index", "Home")"><div class="main-logo default-logo"></div></a>
-</div>
 <div id="main-menu-container" class="menu-main">
     <div class="container">
         <div class="top-nav">
@@ -72,18 +69,15 @@
                 </div>
                 <div class="collapse navbar-collapse menu-main" id="bs-navbar-collapse-1">
                     <ul id="main-navbar" class="nav navbar-nav">
-                        @*<li class="@ViewContext.GetActiveClass("Index", "Projects")"><a href="@Url.Action("Index", "Projects")"> @K9.Globalisation.Dictionary.Projects</a></li>
-                        <li class="@ViewContext.GetActiveClass("Index", "News")"><a href="@Url.Action("Index", "News")"> @Dictionary.News</a></li>*@
+                        <li class="@ViewContext.GetActiveClass("Index", "Projects")"><a href="@Url.Action("Index", "Projects")"> @K9.Globalisation.Dictionary.Projects</a></li>
+                        <li class="@ViewContext.GetActiveClass("Index", "News")"><a href="@Url.Action("Index", "News")"> @Dictionary.News</a></li>
                         <li class="@ViewContext.GetActiveClass("Index", "Home")"><a class="device-only" href="@Url.Action("Index", "Home")"> <span class="device-only">@Dictionary.Home</span></a></li>
-                        @*<li class="@ViewContext.GetActiveClass("Team", "AboutUs")"><a href="@Url.Action("Team", "AboutUs")"> @Dictionary.OurTeam</a></li>
-                        <li class="@ViewContext.GetActiveClass("Index", "Archive")"><a href="@Url.Action("Index", "Archive")"> @Dictionary.Archive</a></li>*@
+                        <li class="@ViewContext.GetActiveClass("Team", "AboutUs")"><a href="@Url.Action("Team", "AboutUs")"> @Dictionary.OurTeam</a></li>
+                        <li class="@ViewContext.GetActiveClass("Index", "Archive")"><a href="@Url.Action("Index", "Archive")"> @Dictionary.Archive</a></li>
                     </ul>
                     <div class="clearfix"> </div>
                 </div>
             </nav>
         </div>
     </div>
-</div>
-<div id="main-menu-spacer">
-    &nbsp;
 </div>

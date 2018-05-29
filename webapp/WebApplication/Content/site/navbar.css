@@ -133,63 +133,20 @@ ul.nav.navbar-nav:not(.dropdown-menu) {
                 padding-left: 15px;
             }
 
-        #account-header ul.site-controls > li:hover a, #account-header ul#main-navbar > li:hover a {
+        #account-header ul.site-controls > li:hover a {
             color: #ff9800 !important;
             background: none !important;
         }
 
-        #account-header ul.site-controls > li.active a, #account-header ul#main-navbar > li.active a {
+        #account-header ul.site-controls > li.active a {
             color: #ff9800;
             font-weight: bold;
             background: none !important;
         }
 
-div#main-logo-container {
-    position: fixed;
-    width: 200px;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
-    top: 40px;
-    z-index: 9003;
-    -webkit-transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-    transition: all 0.35s ease-in-out;
+ul#main-navbar > li {
+    font-family: 'Poiret One', cursive;
 }
-
-    div#main-logo-container.menu-main {
-        height: 180px;
-    }
-
-    div#main-logo-container.menu-small {
-        height: 100px;
-    }
-
-    div#main-logo-container a div {
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        margin-left: 4px;
-        margin-top: 2px;
-        -webkit-transform: translateX(-50%) translateY(-50%);
-        transform: translateX(-50%) translateY(-50%);
-        -webkit-transition: all 0.35s ease-in-out;
-        -moz-transition: all 0.35s ease-in-out;
-        -o-transition: all 0.35s ease-in-out;
-        transition: all 0.35s ease-in-out;
-        cursor: pointer;
-        display: block;
-        opacity: 0.8;
-    }
-
-        div#main-logo-container a div:hover {
-            opacity: 1;
-        }
-
-    div#main-logo-container a.active div {
-        opacity: 1;
-    }
 
 ul.admin-menu ul.dropdown-menu {
     margin-top: 40px;
@@ -236,14 +193,18 @@ ul.admin-menu ul.dropdown-menu {
 }
 
     #main-menu-container.menu-main {
-        height: 180px;
-        background-color: rgba(50,50,50,0.3);
+        height: 100px;
+        background-color: #623A10;
     }
 
     #main-menu-container.menu-small {
-        height: 100px;
-        background-color: rgba(10, 10, 10, 0.85);
+        height: 50px;
+        background-color: rgba(255, 255, 255, 1);
     }
+
+        #main-menu-container.menu-small #main-navbar li a {
+            color: black;
+        }
 
 #bs-navbar-collapse-1 {
     position: fixed;
@@ -251,34 +212,18 @@ ul.admin-menu ul.dropdown-menu {
     width: 100%;
     padding-left: 10%;
     padding-right: 10%;
-    -webkit-transition: all 0.3s ease-out;
-    -moz-transition: all 0.3s ease-out;
-    transition: all 0.3s ease-out;
-    -o-transition: all 0.35s ease-in-out;
+    -webkit-transition: top 0.1s ease-out;
+    -moz-transition: top 0.1s ease-out;
+    transition: top 0.1s ease-out;
+    -o-transition: top 0.1s ease-in-out;
 }
 
     #bs-navbar-collapse-1.menu-main {
-        top: 100px;
+        top: 56px;
+        font-size: 1.3em;
     }
 
     #bs-navbar-collapse-1.menu-small {
-        top: 63px;
+        top: 34px;
+        font-size: 1.1em;
     }
-
-#main-menu-spacer {
-    height: 200px;
-}
-
-div.main-logo {
-    height: 176px;
-    width: 176px;
-    background-image: url(../../Images/company/logo.png);
-    background-repeat: no-repeat;
-}
-
-div.small-logo {
-    height: 88px;
-    width: 88px;
-    background-image: url(../../Images/company/logo-small.png);
-    background-repeat: no-repeat;
-}

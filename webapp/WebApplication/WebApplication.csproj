@@ -277,6 +277,7 @@
     <Content Include="Content\site\desktop.css" />
     <Content Include="Content\site\elements.css" />
     <Content Include="Content\site\mobile.css" />
+    <Content Include="Content\site\sections\mainheader.css" />
     <Content Include="Content\site\sections\archive.css" />
     <Content Include="Content\site\shared.css" />
     <Content Include="Content\site\tablet.css" />
@@ -313,6 +314,8 @@
     <Content Include="Global.asax" />
     <Content Include="Images\company\logo-small.png" />
     <Content Include="Images\company\logo.png" />
+    <Content Include="Images\header\flowers-bg.png" />
+    <Content Include="Images\header\texture-background.jpg" />
     <Content Include="Images\shared\radiance_loader.gif" />
     <Content Include="Images\flags\ad.png" />
     <Content Include="Images\flags\ae.png" />
@@ -804,7 +807,6 @@
     <None Include="Properties\PublishProfiles\Production.pubxml" />
     <None Include="Properties\PublishProfiles\Test.pubxml" />
     <Content Include="Views\Shared\EditorTemplates\String.cshtml" />
-    <Content Include="Views\Shared\_LayoutColumns.cshtml" />
     <Content Include="Views\Shared\Scripts\Default.cshtml" />
     <Content Include="Views\Support\ContactUs.cshtml" />
     <Content Include="Views\UserRoles\Index.cshtml" />
@@ -867,6 +869,7 @@
     <Content Include="Views\Shared\EditorTemplates\NewsItemType.cshtml" />
     <Content Include="Views\News\Index.cshtml" />
     <Content Include="Views\News\_NewsSummary.cshtml" />
+    <Content Include="Views\Shared\_MainHeader.cshtml" />
     <None Include="Web.Integration.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

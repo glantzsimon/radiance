@@ -15,105 +15,11 @@ body {
     background: #FFFFFF;
 }
 
-.banner-plain {
-    background: #fff;
-}
-
-.banner-default {
-    background: url(../../Images/background/slides/creek_bg.jpg) no-repeat 0px 0px;
-    background-size: cover;
-}
-
-.banner-forest4 {
-    background: url(../../Images/background/slides/forest4.jpg) no-repeat 0px 0px;
-    background-size: cover;
-}
-
 .background-slides {
     -webkit-transition: background 0.5s linear;
     -moz-transition: background 0.5s linear;
     -o-transition: background 0.5s linear;
     transition: background 0.5s linear;
-}
-
-.tree-counter-banner div.project-statistic-title {
-    color: white;
-}
-
-.tree-counter-banner .project-statistic {
-    font-family: Lato, sans-serif;
-    font-size: 100px;
-    font-weight: 400;
-}
-
-.tree-counter-description p {
-    color: white;
-    font-size: 0.8em !important;
-}
-
-.background-forest1 {
-    background: url(../../Images/background/slides/forest1d.jpg) no-repeat 0 0;
-    background-size: cover;
-}
-
-.background-forest3 {
-    background: url(../../Images/background/slides/gabon_forest3.jpg) no-repeat 0 0;
-    background-size: cover;
-}
-
-.background-elephant {
-    background: url(../../Images/background/etats-lieux/gabon-elephant.jpg) no-repeat 0 0;
-    background-size: cover;
-}
-
-.background-ivory {
-    background: url(../../Images/background/etats-lieux/ivory.jpg) no-repeat 0 0;
-    background-size: cover;
-}
-
-.background-wildlife {
-    background: url(../../Images/background/etats-lieux/gabon-wildlife1.jpg) no-repeat 0 0;
-    background-size: cover;
-}
-
-.background-poaching1 {
-    background: url(../../Images/background/etats-lieux/poaching1.jpg) no-repeat 0 0;
-    background-size: cover;
-}
-
-.background-poaching2 {
-    background: url(../../Images/background/etats-lieux/poaching2.jpg) no-repeat 0 0;
-    background-size: cover;
-}
-
-.background-poaching4 {
-    background: url(../../Images/background/etats-lieux/poaching4.jpg) no-repeat 0 0;
-    background-size: cover;
-}
-
-.background-forest4 {
-    background: url(../../Images/background/slides/forest4.jpg) no-repeat 0 0;
-    background-size: cover;
-}
-
-.background-waterfall {
-    background: url(../../Images/home/animated-waterfalls.webp) no-repeat 0 0;
-    background-size: cover;
-}
-
-.background-bwiti {
-    background: url(../../Images/home/bwiti-bg.jpg) no-repeat 0 0;
-    background-size: cover;
-}
-
-.background-hand {
-    background: url(../../Images/home/hand.jpg) no-repeat 0 0;
-    background-size: cover;
-}
-
-.background-projects {
-    background: url(../../Images/projects/projects_bg.jpg) no-repeat 0 0;
-    background-size: cover;
 }
 
 .main-section {
@@ -346,17 +252,6 @@ button.btn1:hover {
 .picture-frame-medium {
     width: 500px;
     height: 300px;
-}
-
-.our-mission ul li, .etats-lieux ul li, .etats-forest ul li {
-    color: #fff;
-    line-height: 1.8em !important;
-    font-family: Roboto;
-}
-
-.projects ul li, .donations ul li {
-    line-height: 1.8em !important;
-    font-family: Roboto;
 }
 
 .ih-item.circle {
@@ -725,7 +620,7 @@ img.img-responsive {
 }
 
     #main-banner.main-menu {
-        height: 220px;
+        height: 140px;
     }
 
     #main-banner.small-menu {

@@ -15,12 +15,15 @@ function scroller()
         $().UItoTop({ easingType: 'easeOutQuart' });
     }
 
-    function initParallax() {
+    function initParallax()
+    {
         $('.jarallax').jarallax({
             speed: 0.5,
             imgWidth: 1366,
             imgHeight: 768
         });
+
+        var rellax = new Rellax('.rellax');
     }
 
     var init = function ()

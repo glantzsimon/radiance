@@ -6,7 +6,6 @@ using K9.SharedLibrary.Helpers;
 using K9.SharedLibrary.Models;
 using NLog;
 using System;
-using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
@@ -43,27 +42,10 @@ namespace K9.WebApplication.Services
             }
         }
 
-        public int GetNumberOfIbogasSponsoredToDate()
-        {
-            return _donationRepository.List().Sum(d => d.NumberOfIbogas);
-        }
-
-        public int GetNumberOfIbogasSponsoredLast30Days()
-        {
-            return _donationRepository.List().Where(d => DateTime.Today.Subtract(d.DonatedOn).TotalDays <= 30).Sum(d => d.NumberOfIbogas);
-        }
-
-        public int GetProjectedNumberOfIbogasSponsoredPerYear()
-        {
-            return GetNumberOfIbogasSponsoredLast30Days() * 12;
-        }
-
         private void SendEmailToRadianceEvents(Donation donation)
         {
             var template = Dictionary.DonationReceivedEmail;
-            var title = donation.NumberOfIbogas > 0
-                ? "We have received a donation to sponsor an iboga tree!"
-                : "We have received a donation!";
+            var title = "We have received a donation!";
             _mailer.SendEmail(title, TemplateProcessor.PopulateTemplate(template, new
             {
                 Title = title,
@@ -73,8 +55,7 @@ namespace K9.WebApplication.Services
                 donation.Currency,
                 LinkToSummary = _urlHelper.AsboluteAction("Index", "Donations"),
                 Company = _config.CompanyName,
-                ImageUrl = _urlHelper.AbsoluteContent(_config.CompanyLogoUrl),
-                donation.NumberOfIbogas
+                ImageUrl = _urlHelper.AbsoluteContent(_config.CompanyLogoUrl)
             }), _config.SupportEmailAddress, _config.CompanyName, _config.SupportEmailAddress, _config.CompanyName);
         }
 
@@ -90,8 +71,7 @@ namespace K9.WebApplication.Services
                 Amount = donation.DonationAmount,
                 donation.Currency,
                 Company = _config.CompanyName,
-                ImageUrl = _urlHelper.AbsoluteContent(_config.CompanyLogoUrl),
-                donation.NumberOfIbogas
+                ImageUrl = _urlHelper.AbsoluteContent(_config.CompanyLogoUrl)
             }), donation.CustomerEmail, donation.Customer, _config.SupportEmailAddress, _config.CompanyName);
         }
     }
