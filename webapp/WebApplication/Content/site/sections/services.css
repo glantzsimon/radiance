@@ -1,45 +1,104 @@
-﻿.service {
+﻿.services {
+    background-color: rgba(247, 186, 124, 0.22);
+}
+
+.service {
     position: relative;
     width: 100%;
     height: 300px;
     margin-top: 10px;
     margin-bottom: 20px;
     border: 1px solid #888;
+    border-radius: 2px;
+    -webkit-box-shadow: 0 5px 12px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 5px 12px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.3);
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
+
+    .service:hover {
+        box-shadow: 0 5px 16px 0 rgba(0, 0, 0, 0.6);
+    }
 
     .service .service-picture {
         position: absolute;
         top: 0;
         width: 100%;
-        height: 250px;
+        height: 100%;
         background-size: cover;
     }
 
     .service .service-description {
         position: absolute;
+        margin: auto;
+        top: 0;
+        right: 0;
         bottom: 0;
+        left: 0;
         width: 100%;
         height: 50px;
         text-align: center;
+        z-index: 6;
     }
 
         .service .service-description h3 {
             margin: 0;
             margin-top: 10px;
-            font-size: 1.6em;
-            color: #333;
+            font-size: 2.2em;
+            font-weight: bold;
+            color: white;
         }
 
-.service-picture.parties {
-    background-image: url('../../../Images/services/party.jpg');
+    .service .service-overlay {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 5;
+        background-color: transparent;
+        background-color: rgba(112, 66, 20, 0.3);
+    }
+
+    .service .corner {
+        position: absolute;
+        height: 25%;
+        z-index: 10;
+    }
+
+    .service .corner-bottom-right {
+        bottom: 0;
+        right: 0;
+    }
+
+    .service .corner-bottom-left {
+        bottom: 0;
+        left: 0;
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+    }
+
+    .service .corner-top-right {
+        top: 0;
+        right: 0;
+        -webkit-transform: scaleY(-1);
+        transform: scaleY(-1);
+    }
+
+    .service .corner-top-left {
+        top: 0;
+        left: 0;
+        -webkit-transform: scaleX(-1) scaleY(-1);
+        transform: scaleX(-1) scaleY(-1);
+    }
+
+.service-picture.celebrations {
+    background-image: url('../../../Images/services/celebration.jpg');
 }
 
 .service-picture.popups {
     background-image: url('../../../Images/services/popup.jpg');
-}
-
-.service-picture.celebrations {
-    background-image: url('../../../Images/services/celebration.jpg');
 }
 
 .service-picture.soirees {
@@ -51,5 +110,16 @@
 }
 
 .service-picture.workshops {
-    background-image: url('../../../Images/services/workshop.jpg');
+    background-image: url('../../../Images/services/workshop.png');
+}
+
+.service-picture.gatherings {
+    background-image: url('../../../Images/services/gathering.jpeg');
+}
+
+.service-description-text {
+    font-size: 1.8em;
+    margin-top: -8px;
+    margin-bottom: 42px;
+    line-height: 1.1em;
 }

@@ -277,6 +277,7 @@
     <Content Include="Content\site\desktop.css" />
     <Content Include="Content\site\elements.css" />
     <Content Include="Content\site\mobile.css" />
+    <Content Include="Content\site\sections\events.css" />
     <Content Include="Content\site\sections\services.css" />
     <Content Include="Content\site\sections\mainheader.css" />
     <Content Include="Content\site\sections\archive.css" />
@@ -313,6 +314,7 @@
     <Content Include="Content\k9\pageSpinner.css" />
     <Content Include="Content\_colors.txt" />
     <Content Include="Global.asax" />
+    <Content Include="Images\aboutus\background.jpg" />
     <Content Include="Images\company\logo-small.png" />
     <Content Include="Images\company\logo.png" />
     <Content Include="Images\header\butterfly1.png" />
@@ -322,11 +324,12 @@
     <Content Include="Images\header\flowers-bg.png" />
     <Content Include="Images\header\texture-background.jpg" />
     <Content Include="Images\services\celebration.jpg" />
+    <Content Include="Images\services\flower-corner-bottom-right.png" />
+    <Content Include="Images\services\gathering.jpeg" />
     <Content Include="Images\services\launch.jpg" />
-    <Content Include="Images\services\party.jpg" />
     <Content Include="Images\services\popup.jpg" />
     <Content Include="Images\services\soiree.jpg" />
-    <Content Include="Images\services\workshop.jpg" />
+    <Content Include="Images\services\workshop.png" />
     <Content Include="Images\shared\radiance_loader.gif" />
     <Content Include="Images\flags\ad.png" />
     <Content Include="Images\flags\ae.png" />
@@ -848,9 +851,9 @@
     <Content Include="Views\Shared\DisplayTemplates\ArchiveCategory.cshtml" />
     <Content Include="Views\Shared\EditorTemplates\ArchiveCategory.cshtml" />
     <Content Include="Views\Shared\_UploadedFilesDisplay.cshtml" />
-    <Content Include="Views\Home\_Radiance.cshtml" />
+    <Content Include="Views\Home\_Services.cshtml" />
     <Content Include="Views\Home\_Contact.cshtml" />
-    <Content Include="Views\Home\_EtatsLieux.cshtml" />
+    <Content Include="Views\Home\_FlowerBorder.cshtml" />
     <Content Include="Views\Shared\_EmbeddedVideo.cshtml" />
     <Content Include="Views\Shared\_Separator.cshtml" />
     <Content Include="Views\Support\Donate.cshtml" />
@@ -879,13 +882,11 @@
     <Content Include="Views\News\Index.cshtml" />
     <Content Include="Views\News\_NewsSummary.cshtml" />
     <Content Include="Views\Shared\_MainHeader.cshtml" />
+    <Content Include="Views\Home\_Events.cshtml" />
     <None Include="Web.Integration.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
     <None Include="Web.Production.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </None>
-    <None Include="Web.Staging.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
     <None Include="Web.Test.config">
