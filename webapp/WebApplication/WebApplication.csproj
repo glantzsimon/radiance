@@ -277,6 +277,7 @@
     <Content Include="Content\site\desktop.css" />
     <Content Include="Content\site\elements.css" />
     <Content Include="Content\site\mobile.css" />
+    <Content Include="Content\site\sections\services.css" />
     <Content Include="Content\site\sections\mainheader.css" />
     <Content Include="Content\site\sections\archive.css" />
     <Content Include="Content\site\shared.css" />
@@ -314,8 +315,18 @@
     <Content Include="Global.asax" />
     <Content Include="Images\company\logo-small.png" />
     <Content Include="Images\company\logo.png" />
+    <Content Include="Images\header\butterfly1.png" />
+    <Content Include="Images\header\butterfly2.png" />
+    <Content Include="Images\header\butterfly3.png" />
+    <Content Include="Images\header\butterfly4.png" />
     <Content Include="Images\header\flowers-bg.png" />
     <Content Include="Images\header\texture-background.jpg" />
+    <Content Include="Images\services\celebration.jpg" />
+    <Content Include="Images\services\launch.jpg" />
+    <Content Include="Images\services\party.jpg" />
+    <Content Include="Images\services\popup.jpg" />
+    <Content Include="Images\services\soiree.jpg" />
+    <Content Include="Images\services\workshop.jpg" />
     <Content Include="Images\shared\radiance_loader.gif" />
     <Content Include="Images\flags\ad.png" />
     <Content Include="Images\flags\ae.png" />
@@ -631,6 +642,7 @@
     <Content Include="Scripts\library\lsb.js" />
     <Content Include="Scripts\library\move-top.js" />
     <Content Include="Scripts\library\owl.carousel.js" />
+    <Content Include="Scripts\library\rellax.js" />
     <Content Include="Scripts\library\SmoothScroll.min.js" />
     <Content Include="Scripts\library\vticker-min.js" />
     <Content Include="Scripts\template\scroller.js" />
@@ -837,9 +849,6 @@
     <Content Include="Views\Shared\EditorTemplates\ArchiveCategory.cshtml" />
     <Content Include="Views\Shared\_UploadedFilesDisplay.cshtml" />
     <Content Include="Views\Home\_Radiance.cshtml" />
-    <Content Include="Views\Home\_Mission.cshtml" />
-    <Content Include="Views\Home\_Context.cshtml" />
-    <Content Include="Views\Home\_Partners.cshtml" />
     <Content Include="Views\Home\_Contact.cshtml" />
     <Content Include="Views\Home\_EtatsLieux.cshtml" />
     <Content Include="Views\Shared\_EmbeddedVideo.cshtml" />

@@ -158,6 +158,10 @@
     <Compile Include="Migrations\201805252059025_InitialCreate.Designer.cs">
       <DependentUpon>201805252059025_InitialCreate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201805291808487_DropIbogaColumns.cs" />
+    <Compile Include="Migrations\201805291808487_DropIbogaColumns.Designer.cs">
+      <DependentUpon>201805291808487_DropIbogaColumns.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\LocalMigrationsConfiguration.cs" />
     <Compile Include="Models\Donation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -182,6 +186,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201805252059025_InitialCreate.resx">
       <DependentUpon>201805252059025_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805291808487_DropIbogaColumns.resx">
+      <DependentUpon>201805291808487_DropIbogaColumns.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
