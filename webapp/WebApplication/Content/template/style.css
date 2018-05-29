@@ -11,6 +11,10 @@ html, body {
     font-family: 'Montserrat', sans-serif;
 }
 
+H1, H2, H3, H4, H5 {
+    font-family: 'Poiret One', cursive;
+}
+
 body {
     background: #FFFFFF;
 }
