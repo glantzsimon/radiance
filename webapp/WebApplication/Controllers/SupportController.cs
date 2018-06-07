@@ -65,6 +65,24 @@ namespace K9.WebApplication.Controllers
             }
         }
 
+        public JsonResult Subscribe(string emailAddress)
+        {
+            try
+            {
+                return Json(new
+                {
+                    success = true
+                }, JsonRequestBehavior.AllowGet);
+            }
+            catch (Exception ex)
+            {
+                return Json(new
+                {
+                    success = false
+                }, JsonRequestBehavior.AllowGet);
+            }
+        }
+
         public ActionResult ContactUsSuccess()
         {
             return View();
@@ -78,7 +96,7 @@ namespace K9.WebApplication.Controllers
                 DonationAmount = 10
             });
         }
-        
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Donate(StripeModel model)
@@ -86,13 +104,13 @@ namespace K9.WebApplication.Controllers
             model.PublishableKey = _stripeConfig.PublishableKey;
             return View(model);
         }
-        
+
         [Route("donate/success")]
         public ActionResult DonationSuccess()
         {
             return View();
         }
-        
+
         [HttpPost]
         [Route("donate/processing")]
         [ValidateAntiForgeryToken]
@@ -121,7 +139,7 @@ namespace K9.WebApplication.Controllers
 
             return View("Donate", model);
         }
-        
+
         public override string GetObjectName()
         {
             throw new NotImplementedException();

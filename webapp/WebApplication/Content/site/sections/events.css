@@ -18,3 +18,7 @@
     color: white;
     z-index: 10;
 }
+
+.events-description-text:first-of-type {
+    margin-top: -4px;
+}
