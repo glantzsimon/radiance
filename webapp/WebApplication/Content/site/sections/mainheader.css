@@ -1,7 +1,7 @@
 ﻿#main-header {
-    height: 440px;
-    background: url('../../../Images/header/texture-background.jpg');
-    background-repeat: repeat;
+    height: 480px;
+    /*background: url('../../../Images/header/texture-background.jpg');
+    background-repeat: repeat;*/
     position: relative;
     overflow: hidden;
 }
@@ -10,12 +10,13 @@
         position: relative;
         width: 100%;
         height: 100%;
-        background: url('../../../Images/header/flowers-bg.png');
+        background: url('../../../Images/header/lotus-bg-2.jpg');
         background-position: center;
         background-size: cover;
+        background-repeat: no-repeat;
     }
 
-    #main-header #main-header-text {
+    #main-header .main-header-text {
         width: 1000px;
         /*height: 192px;*/
         height: 275px;
@@ -30,6 +31,10 @@
         font-size: 7em;
         font-weight: bold;
         color: white;
+    }
+
+    #main-header .main-header-text.header-small {
+        height: 275px;
     }
 
 .butterfly {
@@ -73,13 +78,13 @@
 }
 
 @media (max-width:1000px) {
-    #main-header #main-header-text {
+    #main-header .main-header-text {
         width: 100%;
     }
 }
 
 @media (max-width:800px) {
-    #main-header #main-header-text {
+    #main-header .main-header-text {
         font-size: 6em;
         /*height: 164px;*/
         height: 245px;
@@ -87,7 +92,7 @@
 }
 
 @media (max-width:700px) {
-    #main-header #main-header-text {
+    #main-header .main-header-text {
         font-size: 5em;
         /*height: 137px;*/
         height: 205px;
@@ -95,7 +100,7 @@
 }
 
 @media (max-width:560px) {
-    #main-header #main-header-text {
+    #main-header .main-header-text {
         width: 95%;
         font-size: 5em;
         height: 312px;

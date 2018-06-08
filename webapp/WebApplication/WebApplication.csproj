@@ -332,6 +332,8 @@
     <Content Include="Images\header\butterfly3.png" />
     <Content Include="Images\header\butterfly4.png" />
     <Content Include="Images\header\flowers-bg.png" />
+    <Content Include="Images\header\lotus-bg-1.jpg" />
+    <Content Include="Images\header\lotus-bg-2.jpg" />
     <Content Include="Images\header\texture-background.jpg" />
     <Content Include="Images\services\celebration.jpg" />
     <Content Include="Images\services\flower-corner-bottom-right.png" />
@@ -894,7 +896,6 @@
     <Content Include="Views\Shared\_MainHeader.cshtml" />
     <Content Include="Views\Home\_Events.cshtml" />
     <Content Include="Views\Shared\_Subscribe.cshtml" />
-    <Content Include="Views\Home\_ComingSoon.cshtml" />
     <None Include="Web.Integration.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
